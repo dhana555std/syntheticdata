@@ -1,0 +1,9 @@
+python-dotenv
+sqlparse
+faker
+mysql-connector-python
+langchain
+langchain-google-genai
+langchain-openai
+ollama
+langchain-ollama
