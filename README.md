@@ -16,7 +16,7 @@ For example, consider the DDL mentioned in the [schema.sql file](db/schema.sql).
 ## Installation instructions
 - Create a Python Virtual Environment.
 - Run `pip install -r requirements.txt`.
-- Configure the API Keys, Schema definition file and the DB values in the .env file.
+- Configure the API Keys and Schema definition file values in the .env file.
 - Make sure that the DB already exists with the said tables in the schema definition file. The tables are blank and no data is available in it.
 - The format of the .env file is as follows:-
   ```
