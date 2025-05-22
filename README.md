@@ -27,3 +27,28 @@ For example, consider the DDL mentioned in the [schema.sql file](db/schema.sql).
   # DB Schema Definition
   DB_SCHEMA_FILE=/Users/dhanapathimarepalli/projects/AIGenAI/SyntheticDataGenerator/db/entertainment.sql
   ```
+- .env
+```
+ 
+#Google
+# LLM_MODEL=gemini-2.0-flash-thinking-exp-1219
+# LLM_MODEL_PROVIDER=google_genai
+# GEMINI_API_KEY =
+ 
+# Langsmith
+# LANGSMITH_API_KEY=
+
+# OpenAI
+LLM_MODEL=gpt-4-turbo-2024-04-09
+LLM_MODEL_PROVIDER=openai
+OPENAI_API_KEY=
+ 
+# DB Schema Definition
+DB_SCHEMA_FILE=/Users/rushikesh/sarath/SyntheticDataGenerator2/db/schema.sql
+
+DB_HOST=127.0.0.1
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=synthetic_database
+DB_PORT=3306
+```

@@ -1,0 +1,803 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sqlglot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlglot",
+        "description": "sqlglot",
+        "detail": "sqlglot",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "sqlparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlparse",
+        "description": "sqlparse",
+        "detail": "sqlparse",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pymysql",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pymysql",
+        "description": "pymysql",
+        "detail": "pymysql",
+        "documentation": {}
+    },
+    {
+        "label": "write_to_json_file",
+        "importPath": "utils.file_utils",
+        "description": "utils.file_utils",
+        "isExtraImport": true,
+        "detail": "utils.file_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_caller_script_with_vars",
+        "importPath": "utils.file_utils",
+        "description": "utils.file_utils",
+        "isExtraImport": true,
+        "detail": "utils.file_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_actors",
+        "importPath": "do.actors",
+        "description": "do.actors",
+        "isExtraImport": true,
+        "detail": "do.actors",
+        "documentation": {}
+    },
+    {
+        "label": "generate_customers",
+        "importPath": "do.customers",
+        "description": "do.customers",
+        "isExtraImport": true,
+        "detail": "do.customers",
+        "documentation": {}
+    },
+    {
+        "label": "generate_directors",
+        "importPath": "do.directors",
+        "description": "do.directors",
+        "isExtraImport": true,
+        "detail": "do.directors",
+        "documentation": {}
+    },
+    {
+        "label": "generate_genres",
+        "importPath": "do.genres",
+        "description": "do.genres",
+        "isExtraImport": true,
+        "detail": "do.genres",
+        "documentation": {}
+    },
+    {
+        "label": "generate_movies",
+        "importPath": "do.movies",
+        "description": "do.movies",
+        "isExtraImport": true,
+        "detail": "do.movies",
+        "documentation": {}
+    },
+    {
+        "label": "generate_movie_actors",
+        "importPath": "do.movie_actors",
+        "description": "do.movie_actors",
+        "isExtraImport": true,
+        "detail": "do.movie_actors",
+        "documentation": {}
+    },
+    {
+        "label": "generate_reviews",
+        "importPath": "do.reviews",
+        "description": "do.reviews",
+        "isExtraImport": true,
+        "detail": "do.reviews",
+        "documentation": {}
+    },
+    {
+        "label": "generate_theaters",
+        "importPath": "do.theaters",
+        "description": "do.theaters",
+        "isExtraImport": true,
+        "detail": "do.theaters",
+        "documentation": {}
+    },
+    {
+        "label": "generate_screenings",
+        "importPath": "do.screenings",
+        "description": "do.screenings",
+        "isExtraImport": true,
+        "detail": "do.screenings",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tickets",
+        "importPath": "do.tickets",
+        "description": "do.tickets",
+        "isExtraImport": true,
+        "detail": "do.tickets",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "PydanticOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm",
+        "importPath": "utils.llm_utils",
+        "description": "utils.llm_utils",
+        "isExtraImport": true,
+        "detail": "utils.llm_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm",
+        "importPath": "utils.llm_utils",
+        "description": "utils.llm_utils",
+        "isExtraImport": true,
+        "detail": "utils.llm_utils",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "insert_sql_data",
+        "importPath": "utils.sql_utils",
+        "description": "utils.sql_utils",
+        "isExtraImport": true,
+        "detail": "utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_all_inserts",
+        "importPath": "utils.sql_utils",
+        "description": "utils.sql_utils",
+        "isExtraImport": true,
+        "detail": "utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_all_inserts",
+        "importPath": "utils.sql_utils",
+        "description": "utils.sql_utils",
+        "isExtraImport": true,
+        "detail": "utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "main_faker",
+        "importPath": "call_faker",
+        "description": "call_faker",
+        "isExtraImport": true,
+        "detail": "call_faker",
+        "documentation": {}
+    },
+    {
+        "label": "get_table_order",
+        "importPath": "ddl_info_extractor",
+        "description": "ddl_info_extractor",
+        "isExtraImport": true,
+        "detail": "ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "get_ddls_for_tables",
+        "importPath": "ddl_info_extractor",
+        "description": "ddl_info_extractor",
+        "isExtraImport": true,
+        "detail": "ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "get_table_order",
+        "importPath": "ddl_info_extractor",
+        "description": "ddl_info_extractor",
+        "isExtraImport": true,
+        "detail": "ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "get_ddls_for_tables",
+        "importPath": "ddl_info_extractor",
+        "description": "ddl_info_extractor",
+        "isExtraImport": true,
+        "detail": "ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.util",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.util",
+        "description": "importlib.util",
+        "detail": "importlib.util",
+        "documentation": {}
+    },
+    {
+        "label": "create_insertion_data_methods",
+        "importPath": "process_tables",
+        "description": "process_tables",
+        "isExtraImport": true,
+        "detail": "process_tables",
+        "documentation": {}
+    },
+    {
+        "label": "code_generator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "code_generator",
+        "description": "code_generator",
+        "detail": "code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "data_generator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "data_generator",
+        "description": "data_generator",
+        "detail": "data_generator",
+        "documentation": {}
+    },
+    {
+        "label": "sql_utils",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "topological_sort",
+        "kind": 2,
+        "importPath": "db.utils.file_utils",
+        "description": "db.utils.file_utils",
+        "peekOfCode": "def topological_sort(dependency_graph):\n    from collections import defaultdict, deque\n    indegree = defaultdict(int)\n    graph = defaultdict(list)\n    for node, deps in dependency_graph.items():\n        indegree[node] = indegree.get(node, 0)\n        for dep in deps:\n            graph[dep].append(node)\n            indegree[node] += 1\n    queue = deque([node for node in indegree if indegree[node] == 0])",
+        "detail": "db.utils.file_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_caller_script_with_vars",
+        "kind": 2,
+        "importPath": "db.utils.file_utils",
+        "description": "db.utils.file_utils",
+        "peekOfCode": "def generate_caller_script_with_vars(dependency_graph,sorted_tables, output_path=\"call_faker.py\", module_folder=\"do\"):\n    # sorted_tables = topological_sort(dependency_graph)\n    print(f\"sorted tables : {sorted_tables}\")\n    with open(output_path, \"w\") as f:\n        f.write(\"# Auto-generated script to call generate functions in dependency order\\n\\n\")\n        f.write(\"import os\\n\")\n        f.write(\"import json\\n\")\n        f.write(\"from decimal import Decimal\\n\\n\")\n        f.write(\"from utils.file_utils import write_to_json_file\\n\\n\")\n        # Write imports",
+        "detail": "db.utils.file_utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_to_json_file",
+        "kind": 2,
+        "importPath": "db.utils.file_utils",
+        "description": "db.utils.file_utils",
+        "peekOfCode": "def write_to_json_file(var_name, data):\n    base_temp_dir = tempfile.gettempdir()  # e.g., /var/folders/... on macOS\n    full_output_dir = os.path.join(base_temp_dir, \"output\")\n    os.makedirs(full_output_dir, exist_ok=True)\n    file_path = os.path.join(full_output_dir, f\"{var_name}.json\")\n    # Delete if file already exists\n    if os.path.exists(file_path):\n        os.remove(file_path)\n    def default_serializer(obj):\n        if isinstance(obj, Decimal):",
+        "detail": "db.utils.file_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm",
+        "kind": 2,
+        "importPath": "db.utils.llm_utils",
+        "description": "db.utils.llm_utils",
+        "peekOfCode": "def get_llm():\n    load_dotenv()\n    model = os.getenv(\"LLM_MODEL\")\n    model_provider = os.getenv(\"LLM_MODEL_PROVIDER\")\n    print(f\"LLM_MODEL={model} and LLM_MODEL_PROVIDER={model_provider}\")\n    return init_chat_model(model=model, model_provider=model_provider)",
+        "detail": "db.utils.llm_utils",
+        "documentation": {}
+    },
+    {
+        "label": "execute_sql_file",
+        "kind": 2,
+        "importPath": "db.utils.sql_utils",
+        "description": "db.utils.sql_utils",
+        "peekOfCode": "def execute_sql_file(sql_file_path):\n    \"\"\"\n    Executes all SQL statements from the given .sql file on a MySQL database.\n    Continues execution even if some statements fail.\n    Args:\n        sql_file_path (str): Path to the SQL file.\n    \"\"\"\n    db_config = {\n        \"host\": os.getenv('DB_HOST'),\n        \"port\": os.getenv(\"DB_PORT\"),",
+        "detail": "db.utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_all_inserts",
+        "kind": 2,
+        "importPath": "db.utils.sql_utils",
+        "description": "db.utils.sql_utils",
+        "peekOfCode": "def generate_all_inserts(sorted_tables, ddls, json_dir):\n    # Generate a timestamped directory name\n    timestamp = datetime.now().strftime(\"%Y-%m-%d_%H-%M-%S\")\n    base_temp_dir = tempfile.gettempdir()\n    full_inserts_dir = os.path.join(base_temp_dir, \"inserts\")\n    # Full path with timestamped subfolder\n    inserts_dir = os.path.join(full_inserts_dir, f\"inserts_{timestamp}\")\n    # Ensure the parent inserts folder exists (optional)\n    os.makedirs(\"inserts\", exist_ok=True)\n    # Create the timestamped inserts directory",
+        "detail": "db.utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "clean_values_sql",
+        "kind": 2,
+        "importPath": "db.utils.sql_utils",
+        "description": "db.utils.sql_utils",
+        "peekOfCode": "def clean_values_sql(values_sql: str, columns: list[str]) -> str:\n    # Use csv.reader to safely parse values with commas inside quotes\n    reader = csv.reader(io.StringIO(values_sql), skipinitialspace=True, quotechar=\"'\")\n    raw_values = next(reader)\n    # Trim trailing NULLs until we match the number of columns\n    column_count = len(columns)\n    print(f\"The columns are : {columns} and count is {column_count}\")\n    while len(raw_values) > column_count and raw_values[-1].strip().upper() == 'NULL':\n        raw_values.pop()\n    # Reformat values: keep numbers and NULL unquoted, escape strings",
+        "detail": "db.utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_connection",
+        "kind": 2,
+        "importPath": "db.utils.sql_utils",
+        "description": "db.utils.sql_utils",
+        "peekOfCode": "def get_db_connection():\n    return pymysql.connect(\n        host=os.getenv(\"DB_HOST\"),\n        user=os.getenv(\"DB_USER\"),\n        password=os.getenv(\"DB_PASSWORD\"),\n        database=os.getenv(\"DB_NAME\"),\n        port=int(os.getenv(\"DB_PORT\", 3306))\n    )\ndef log_write(log_path, message):\n    with open(log_path, \"a\") as f:",
+        "detail": "db.utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "log_write",
+        "kind": 2,
+        "importPath": "db.utils.sql_utils",
+        "description": "db.utils.sql_utils",
+        "peekOfCode": "def log_write(log_path, message):\n    with open(log_path, \"a\") as f:\n        f.write(message + \"\\n\")\ndef insert_sql_data(sorted_tables, inserts_dir):\n    logs_dir = os.path.join(inserts_dir, \"logs\")\n    os.makedirs(logs_dir, exist_ok=True)\n    log_file = os.path.join(logs_dir, \"insert_log.txt\")\n    conn = get_db_connection()\n    cursor = conn.cursor()\n    if any(isinstance(t, list) for t in sorted_tables):",
+        "detail": "db.utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "insert_sql_data",
+        "kind": 2,
+        "importPath": "db.utils.sql_utils",
+        "description": "db.utils.sql_utils",
+        "peekOfCode": "def insert_sql_data(sorted_tables, inserts_dir):\n    logs_dir = os.path.join(inserts_dir, \"logs\")\n    os.makedirs(logs_dir, exist_ok=True)\n    log_file = os.path.join(logs_dir, \"insert_log.txt\")\n    conn = get_db_connection()\n    cursor = conn.cursor()\n    if any(isinstance(t, list) for t in sorted_tables):\n        sorted_tables = [item for sublist in sorted_tables for item in sublist]\n    for table in sorted_tables:\n        print(f\"Processing table: {table}\")",
+        "detail": "db.utils.sql_utils",
+        "documentation": {}
+    },
+    {
+        "label": "main_faker",
+        "kind": 2,
+        "importPath": "db.call_faker",
+        "description": "db.call_faker",
+        "peekOfCode": "def main_faker():\n    print('Calling generate_actors()...')\n    actors = generate_actors()\n    write_to_json_file('actors', actors)\n    print('Calling generate_customers()...')\n    customers = generate_customers()\n    write_to_json_file('customers', customers)\n    print('Calling generate_directors()...')\n    directors = generate_directors()\n    write_to_json_file('directors', directors)",
+        "detail": "db.call_faker",
+        "documentation": {}
+    },
+    {
+        "label": "generate_code",
+        "kind": 2,
+        "importPath": "db.code_generator",
+        "description": "db.code_generator",
+        "peekOfCode": "def generate_code(table, ddl, dependencies):\n    \"\"\"\n    \"\"\"\n    try:\n        chain = PROMPT | llm | StrOutputParser()\n        print(f\"prompt is {PROMPT}\")\n        result = chain.invoke({\n            \"table\": table,\n            \"dependencies\": dependencies,\n            \"ddl\": ddl",
+        "detail": "db.code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "db.code_generator",
+        "description": "db.code_generator",
+        "peekOfCode": "llm = get_llm()\noutput_parser = StrOutputParser()\nPROMPT = PromptTemplate.from_template(\"\"\"\nYou are a Python code generator specialized in creating synthetic data using the Faker library.\nYour task:\nGenerate a complete Python function named generate_{table} that produces synthetic data for \na single database table, respecting constraints and dependencies.\nInputs:\n1. ddl (string): The full CREATE TABLE SQL statement for the target table:\n{ddl}",
+        "detail": "db.code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "output_parser",
+        "kind": 5,
+        "importPath": "db.code_generator",
+        "description": "db.code_generator",
+        "peekOfCode": "output_parser = StrOutputParser()\nPROMPT = PromptTemplate.from_template(\"\"\"\nYou are a Python code generator specialized in creating synthetic data using the Faker library.\nYour task:\nGenerate a complete Python function named generate_{table} that produces synthetic data for \na single database table, respecting constraints and dependencies.\nInputs:\n1. ddl (string): The full CREATE TABLE SQL statement for the target table:\n{ddl}\n2. dependencies (list of dependency table names): The following are passed as lists of dicts representing",
+        "detail": "db.code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "PROMPT",
+        "kind": 5,
+        "importPath": "db.code_generator",
+        "description": "db.code_generator",
+        "peekOfCode": "PROMPT = PromptTemplate.from_template(\"\"\"\nYou are a Python code generator specialized in creating synthetic data using the Faker library.\nYour task:\nGenerate a complete Python function named generate_{table} that produces synthetic data for \na single database table, respecting constraints and dependencies.\nInputs:\n1. ddl (string): The full CREATE TABLE SQL statement for the target table:\n{ddl}\n2. dependencies (list of dependency table names): The following are passed as lists of dicts representing\nforeign key values: {dependencies}",
+        "detail": "db.code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "dt",
+        "kind": 5,
+        "importPath": "db.code_generator",
+        "description": "db.code_generator",
+        "peekOfCode": "dt = faker.date_time_this_year(before_now=True)\n# Format as required\nformatted = dt.strftime(\"%Y-%m-%d %H:%M:%S\") + \".000\"\nExample 1 : if in dependencies roles → [] there is no any dependency generate function structure like this\n            def generate_roles(n=5000):\nExample 2 : if in dependencies inventory → ['products', 'warehouses'] there are two dependencies then generate function structure like this\n            def generate_inventory(warehouses, products, n=5000):\nExample 3 : if in function structure there is created_by_data or updated_by_data generate function structure like this\n            def function_name(created_by_data=None, updated_by_data=None, n=5000):\nExample 4: Faker should respect schema constraints on data length.",
+        "detail": "db.code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "formatted",
+        "kind": 5,
+        "importPath": "db.code_generator",
+        "description": "db.code_generator",
+        "peekOfCode": "formatted = dt.strftime(\"%Y-%m-%d %H:%M:%S\") + \".000\"\nExample 1 : if in dependencies roles → [] there is no any dependency generate function structure like this\n            def generate_roles(n=5000):\nExample 2 : if in dependencies inventory → ['products', 'warehouses'] there are two dependencies then generate function structure like this\n            def generate_inventory(warehouses, products, n=5000):\nExample 3 : if in function structure there is created_by_data or updated_by_data generate function structure like this\n            def function_name(created_by_data=None, updated_by_data=None, n=5000):\nExample 4: Faker should respect schema constraints on data length.\nFor example, session_id CHAR(36) allows a maximum of 36 characters, so Faker must generate a value no longer than 36 characters\n\"\"\")",
+        "detail": "db.code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_parent_table_data",
+        "kind": 2,
+        "importPath": "db.data_generator",
+        "description": "db.data_generator",
+        "peekOfCode": "def generate_parent_table_data(schema_path: str, table_name: str):\n    print(\"Inside generate_parent_table_data\")\n    with open(schema_path, 'r') as f:\n        sql_schema = f.read()\n    chain = prompt | llm | StrOutputParser()\n    print(f\"prompt is {prompt}\")\n    result = chain.invoke({\n        \"sql_schema\": sql_schema,\n        \"table_name\": table_name\n    })",
+        "detail": "db.data_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_child_table_data",
+        "kind": 2,
+        "importPath": "db.data_generator",
+        "description": "db.data_generator",
+        "peekOfCode": "def generate_child_table_data(schema_path: str, table_name: str, parent_table_data: Set[str]):\n    print(\"Inside generate_child_table_data\")\n    with open(schema_path, 'r') as f:\n        sql_schema = f.read()\n    chain = child_prompt | llm | StrOutputParser()\n    print(f\"child prompt is \\n {child_prompt}\")\n    result = chain.invoke({\n        \"sql_schema\": sql_schema,\n        \"table_name\": table_name,\n        \"parent_table_data\": parent_table_data",
+        "detail": "db.data_generator",
+        "documentation": {}
+    },
+    {
+        "label": "temp_dir",
+        "kind": 5,
+        "importPath": "db.data_generator",
+        "description": "db.data_generator",
+        "peekOfCode": "temp_dir = tempfile.gettempdir()\nprint(f\"temp directory is {temp_dir}\")\nprompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are a SQL expert specialized in generating realistic INSERT statements for synthetic data.\"),\n    (\"human\", \"\"\"\nGiven the SQL schema below, extract only the DDL for the table `{table_name}`. However don't add or print this to the\nresponse.This is only for your reference.\n### SQL SCHEMA\n{sql_schema}\nThen, based on that DDL, generate exactly 5 realistic `INSERT INTO` statements for `{table_name}`.",
+        "detail": "db.data_generator",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "db.data_generator",
+        "description": "db.data_generator",
+        "peekOfCode": "prompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are a SQL expert specialized in generating realistic INSERT statements for synthetic data.\"),\n    (\"human\", \"\"\"\nGiven the SQL schema below, extract only the DDL for the table `{table_name}`. However don't add or print this to the\nresponse.This is only for your reference.\n### SQL SCHEMA\n{sql_schema}\nThen, based on that DDL, generate exactly 5 realistic `INSERT INTO` statements for `{table_name}`.\nTask:\n- Respect all data types, constraints (NOT NULL, UNIQUE, etc.), and formatting in the schema.",
+        "detail": "db.data_generator",
+        "documentation": {}
+    },
+    {
+        "label": "child_prompt",
+        "kind": 5,
+        "importPath": "db.data_generator",
+        "description": "db.data_generator",
+        "peekOfCode": "child_prompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are a SQL expert that generates realistic INSERT statements for synthetic data.\"),\n    (\"human\", \"\"\"\nGiven the SQL schema below, extract only the DDL for the table `{table_name}`. However don't add or print this to the \nresponse. This is only for your reference.\n### SQL SCHEMA\n{sql_schema}\nThe table `{table_name}` has foreign key dependencies on the following parent tables. Below are the existing insert\nstatements for those parent tables. You must use the actual values from these inserts when generating foreign key values\nin the child table.",
+        "detail": "db.data_generator",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "db.data_generator",
+        "description": "db.data_generator",
+        "peekOfCode": "llm = get_llm()\ndef generate_parent_table_data(schema_path: str, table_name: str):\n    print(\"Inside generate_parent_table_data\")\n    with open(schema_path, 'r') as f:\n        sql_schema = f.read()\n    chain = prompt | llm | StrOutputParser()\n    print(f\"prompt is {prompt}\")\n    result = chain.invoke({\n        \"sql_schema\": sql_schema,\n        \"table_name\": table_name",
+        "detail": "db.data_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_ddls_for_tables",
+        "kind": 2,
+        "importPath": "db.ddl_info_extractor",
+        "description": "db.ddl_info_extractor",
+        "peekOfCode": "def get_ddls_for_tables(sql_file_path: str) -> dict:\n    \"\"\"\n    Parses a .sql file containing multiple CREATE TABLE statements and returns\n    a dictionary with table names as keys and full DDLs as values.\n    Args:\n        sql_file_path (str): Path to the SQL file.\n    Returns:\n        dict: {table_name: ddl_statement}\n    \"\"\"\n    import re",
+        "detail": "db.ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "parse_sql_file",
+        "kind": 2,
+        "importPath": "db.ddl_info_extractor",
+        "description": "db.ddl_info_extractor",
+        "peekOfCode": "def parse_sql_file(file_path: str):\n    \"\"\"Parse the SQL schema file using sqlparse.\"\"\"\n    with open(file_path, 'r') as file:\n        content = file.read()\n    return sqlparse.parse(content)\n# def extract_table_dependencies(statements) -> Dict[str, Set[str]]:\n#     \"\"\"\n#     Extract tables and their foreign key dependencies.\n#     Supports both explicit and inline foreign keys.\n#     Returns a dictionary where key is the table and value is a set of referenced tables.",
+        "detail": "db.ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "extract_table_dependencies",
+        "kind": 2,
+        "importPath": "db.ddl_info_extractor",
+        "description": "db.ddl_info_extractor",
+        "peekOfCode": "def extract_table_dependencies(statements) -> Dict[str, List[str]]:\n    \"\"\"\n    Extract tables and their foreign key dependencies.\n    Supports both explicit and inline foreign keys.\n    Returns a dictionary where key is the table and value is a list of referenced tables.\n    \"\"\"\n    dependencies = defaultdict(list)\n    all_tables = []\n    create_table_regex = re.compile(\n        r'CREATE TABLE IF NOT EXISTS\\s+[`\"]?(\\w+)[`\"]?', re.IGNORECASE)",
+        "detail": "db.ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "topological_sort",
+        "kind": 2,
+        "importPath": "db.ddl_info_extractor",
+        "description": "db.ddl_info_extractor",
+        "peekOfCode": "def topological_sort(graph: Dict[str, Set[str]]) -> List[str]:\n    \"\"\"Performs topological sort using DFS, ensuring parent tables appear before child tables.\"\"\"\n    visited = set()\n    visiting = set()\n    result = []\n    def dfs(node):\n        if node in visited:\n            return\n        if node in visiting:\n            raise ValueError(f\"Cyclic dependency detected at {node}\")",
+        "detail": "db.ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "get_table_order",
+        "kind": 2,
+        "importPath": "db.ddl_info_extractor",
+        "description": "db.ddl_info_extractor",
+        "peekOfCode": "def get_table_order(sql_file_path: str) -> Tuple[List[str], Dict[str, Set[str]]]:\n    \"\"\"\n    Returns the ordered list of tables and the dependency graph\n    based on topological sort of foreign key dependencies.\n    \"\"\"\n    parsed_statements = parse_sql_file(sql_file_path)\n    graph = extract_table_dependencies(parsed_statements)\n    tables_sorted = topological_sort(graph)\n    print(\"✅ Table generation order:\")\n    for i, table in enumerate(tables_sorted, start=1):",
+        "detail": "db.ddl_info_extractor",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "db.generate_inserts",
+        "description": "db.generate_inserts",
+        "peekOfCode": "def main(schema_file):\n    base_temp_dir = tempfile.gettempdir()  # e.g., /var/folders/... on macOS\n    full_output_dir = os.path.join(base_temp_dir, \"output\")\n    if os.path.exists(full_output_dir) and os.path.isdir(full_output_dir):\n        shutil.rmtree(full_output_dir)\n    main_faker()\n    ddls = get_ddls_for_tables(schema_file)\n    sorted_tables = get_table_order(schema_file)\n    base_temp_dir = tempfile.gettempdir()\n    full_output_dir = os.path.join(base_temp_dir, \"output\")",
+        "detail": "db.generate_inserts",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "db.main",
+        "description": "db.main",
+        "peekOfCode": "def main(schema_file):\n    ddls = get_ddls_for_tables(schema_file)\n    sorted_tables, dependency_graphs = get_table_order(schema_file)\n    create_insertion_data_methods(sorted_tables, dependency_graphs, ddls)\n    generate_caller_script_with_vars(dependency_graphs, sorted_tables)\nif __name__ == \"__main__\":\n    start = datetime.now()\n    print(f\"start time is {start}.\")\n    load_dotenv()\n    schema_file_path = os.getenv(\"DB_SCHEMA_FILE\")",
+        "detail": "db.main",
+        "documentation": {}
+    },
+    {
+        "label": "remove_synthetic_sql_files",
+        "kind": 2,
+        "importPath": "db.process_tables",
+        "description": "db.process_tables",
+        "peekOfCode": "def remove_synthetic_sql_files():\n    temp_dir = tempfile.gettempdir()\n    for filename in os.listdir(temp_dir):\n        if filename.endswith('_synthetic_data.sql'):\n            os.remove(os.path.join(temp_dir, filename))\ndef merge_sql_files(file_list, output_file):\n    with open(output_file, 'w') as outfile:\n        for file in file_list:\n            file_path = os.path.join(tempfile.gettempdir(), f\"{file}_synthetic_data.sql\")\n            with open(file_path, 'r') as infile:",
+        "detail": "db.process_tables",
+        "documentation": {}
+    },
+    {
+        "label": "merge_sql_files",
+        "kind": 2,
+        "importPath": "db.process_tables",
+        "description": "db.process_tables",
+        "peekOfCode": "def merge_sql_files(file_list, output_file):\n    with open(output_file, 'w') as outfile:\n        for file in file_list:\n            file_path = os.path.join(tempfile.gettempdir(), f\"{file}_synthetic_data.sql\")\n            with open(file_path, 'r') as infile:\n                outfile.write(infile.read())\ndef get_parent_data_inserts(tables: Set[str]) -> Set[str]:\n    temp_dir = tempfile.gettempdir()\n    result_set = set()\n    for table in tables:",
+        "detail": "db.process_tables",
+        "documentation": {}
+    },
+    {
+        "label": "get_parent_data_inserts",
+        "kind": 2,
+        "importPath": "db.process_tables",
+        "description": "db.process_tables",
+        "peekOfCode": "def get_parent_data_inserts(tables: Set[str]) -> Set[str]:\n    temp_dir = tempfile.gettempdir()\n    result_set = set()\n    for table in tables:\n        file_path = os.path.join(temp_dir, f\"{table}_synthetic_data.sql\")\n        if os.path.exists(file_path):\n            with open(file_path, 'r') as file:\n                content = file.read().strip()\n                result_set.add(f\"# {table}\\n{content}\")\n        else:",
+        "detail": "db.process_tables",
+        "documentation": {}
+    },
+    {
+        "label": "process_generated_data",
+        "kind": 2,
+        "importPath": "db.process_tables",
+        "description": "db.process_tables",
+        "peekOfCode": "def process_generated_data(sorted_tables, dependency_graphs, schema_file_path):\n    for idx, table in enumerate(sorted_tables, 1):\n        dependencies = dependency_graphs.get(table, set())\n        if not dependencies:\n            print(f\"{idx}. Processing table: {table}\")\n            data_generator.generate_parent_table_data(schema_file_path, table)\n        else:\n            print(f\"{idx}. Processing {table}, has dependencies: {dependencies}\")\n            inserts = get_parent_data_inserts(dependencies)\n            data_generator.generate_child_table_data(schema_file_path, table, inserts)",
+        "detail": "db.process_tables",
+        "documentation": {}
+    },
+    {
+        "label": "create_insertion_data_methods",
+        "kind": 2,
+        "importPath": "db.process_tables",
+        "description": "db.process_tables",
+        "peekOfCode": "def create_insertion_data_methods(sorted_tables, dependency_graphs, ddl_dict):\n    print(\"\\n Inside process_generated_data\")\n    folder_name = \"do\"\n    if os.path.exists(folder_name):\n        shutil.rmtree(folder_name)\n    os.makedirs(folder_name, exist_ok=True)\n    filepath=\"dependency_graph.txt\"\n    with open(filepath, \"w\", encoding=\"utf-8\") as f:\n        for key, deps in dependency_graphs.items():\n            f.write(f\"{key} → {deps}\\n\")",
+        "detail": "db.process_tables",
+        "documentation": {}
+    }
+]

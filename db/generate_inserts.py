@@ -1,7 +1,7 @@
 import os
 import shutil
 import tempfile
-
+from utils.sql_utils import insert_sql_data
 from dotenv import load_dotenv
 
 from call_faker import main_faker
@@ -21,7 +21,7 @@ def main(schema_file):
     base_temp_dir = tempfile.gettempdir()
     full_output_dir = os.path.join(base_temp_dir, "output")
     generate_all_inserts(sorted_tables, ddls, full_output_dir)
-
+    insert_sql_data(sorted_tables, inserts_dir)
 
 if __name__ == "__main__":
     load_dotenv()

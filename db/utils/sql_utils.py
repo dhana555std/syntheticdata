@@ -6,8 +6,11 @@ import sqlglot
 import tempfile
 import csv
 import io
-
+import sqlparse
+from dotenv import load_dotenv
 from datetime import datetime
+import pymysql
+
 
 
 def execute_sql_file(sql_file_path):
@@ -224,3 +227,66 @@ def clean_values_sql(values_sql: str, columns: list[str]) -> str:
         return f"'{escaped}'"
 
     return ", ".join([format_val(v) for v in raw_values])
+
+
+load_dotenv()
+
+
+
+def get_db_connection():
+    return pymysql.connect(
+        host=os.getenv("DB_HOST"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        database=os.getenv("DB_NAME"),
+        port=int(os.getenv("DB_PORT", 3306))
+    )
+
+def log_write(log_path, message):
+    with open(log_path, "a") as f:
+        f.write(message + "\n")
+
+def insert_sql_data(sorted_tables, inserts_dir):
+    logs_dir = os.path.join(inserts_dir, "logs")
+    os.makedirs(logs_dir, exist_ok=True)
+    log_file = os.path.join(logs_dir, "insert_log.txt")
+
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    if any(isinstance(t, list) for t in sorted_tables):
+        sorted_tables = [item for sublist in sorted_tables for item in sublist]
+
+    for table in sorted_tables:
+        print(f"Processing table: {table}")
+        table =  str(table)
+        table_file_path = os.path.join(inserts_dir, f"{table}.sql")
+
+        if not os.path.exists(table_file_path):
+            log_write(log_file, f"[{datetime.now()}] ❌ File not found: {table_file_path}")
+            continue
+
+        try:
+            with open(table_file_path, "r") as file:
+                sql_content = file.read()
+
+            # Use sqlparse to safely split multiple/multiline statements
+            statements = sqlparse.split(sql_content)
+
+            for stmt_num, stmt in enumerate(statements, start=1):
+                stmt = stmt.strip()
+                if not stmt:
+                    continue
+                try:
+                    cursor.execute(stmt)
+                    conn.commit()
+                    log_write(log_file, f"[{datetime.now()}] ✅ Table: {table}, Statement #{stmt_num}")
+                except Exception as e:
+                    conn.rollback()
+                    log_write(log_file, f"[{datetime.now()}] ❌ Table: {table}, Statement #{stmt_num}, Error: {str(e)}")
+        except Exception as e:
+            log_write(log_file, f"[{datetime.now()}] ❌ Unexpected error in {table}: {str(e)}")
+
+    cursor.close()
+    conn.close()
+    print(f"✅ Insertions complete. Logs written to: {log_file}")
