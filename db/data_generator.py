@@ -3,10 +3,10 @@ import re
 import tempfile
 from typing import Set
 
-from dotenv import load_dotenv
-from langchain.chat_models import init_chat_model
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
+
+from utils.llm_utils import get_llm
 
 temp_dir = tempfile.gettempdir()
 print(f"temp directory is {temp_dir}")
@@ -71,14 +71,6 @@ Guidelines:
 - created_by and updated_by values must be 36 characters only. Do not exceed this length.
 """)
 ])
-
-
-def get_llm():
-    load_dotenv()
-    model = os.getenv("LLM_MODEL")
-    model_provider = os.getenv("LLM_MODEL_PROVIDER")
-    print(f"LLM_MODEL={model} and LLM_MODEL_PROVIDER={model_provider}")
-    return init_chat_model(model=model, model_provider=model_provider)
 
 
 llm = get_llm()

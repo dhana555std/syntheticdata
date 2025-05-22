@@ -1,3 +1,7 @@
 .env
 .env*
 .venv
+do
+__pycache__ 
+inserts
+dependency_graph.txt
