@@ -18,3 +18,12 @@ For example, consider the DDL mentioned in the [schema.sql file](db/schema.sql).
 - Run `pip install -r requirements.txt`.
 - Configure the API Keys, Schema definition file and the DB values in the .env file.
 - Make sure that the DB already exists with the said tables in the schema definition file. The tables are blank and no data is available in it.
+- The format of the .env file is as follows:-
+  ```
+  LLM_MODEL=gpt-4-turbo-2024-04-09
+  LLM_MODEL_PROVIDER=openai
+  OPENAI_API_KEY=<Your Key>
+
+  # DB Schema Definition
+  DB_SCHEMA_FILE=/Users/dhanapathimarepalli/projects/AIGenAI/SyntheticDataGenerator/db/entertainment.sql
+  ```
