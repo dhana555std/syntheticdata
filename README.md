@@ -10,12 +10,8 @@ For example, consider the DDL mentioned in the [schema.sql file](db/schema.sql).
 
 ## What does it do?
 - When the [main.py](db/main.py) is run it will make sure that it generates synthetic data that adheres to the the **Primary**, **Not Null**, **Unique** and **Referential Integrity** constraints as per the schema definition.
-- It generates the necessary DML statements(inserts in this case) and adds all these to `insert.sql` file which gets created inside the **%temp%** folder of the machine on which it is running.
-- It also runs these insert statements on top of the SQL database mentioned as part of the [.env](.env) file.
-- Eventually all the temporary files created in the DB will be deleted.
+- It generates the necessary DML statements(inserts in this case) and adds all these to `insert.sql` file which gets created inside the **temp** folder of the machine on which it is running. 
 
-<p><b>I tried this with OpenAI and Gemini. It worked fine. Nevertheless, it takes a bit of time.
-At least with OpenAI the results are very much promising. You can run the same multiple times to get more data.</b></p>
 
 ## Installation instructions
 - Create a Python Virtual Environment.
