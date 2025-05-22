@@ -196,7 +196,7 @@ def generate_all_inserts(sorted_tables, ddls, json_dir):
         print(f"Inserts saved at : {os.path.join(inserts_dir,f"{table}.sql")}")
         all_inserts[table] = inserts
 
-    return all_inserts
+    return all_inserts, inserts_dir
 
 
 
