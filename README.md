@@ -1,4 +1,4 @@
-# Synthetic data for Database
+# Synthetic data Generator
 
 
 <p>
