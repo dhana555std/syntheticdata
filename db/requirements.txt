@@ -8,3 +8,4 @@ langchain-openai
 ollama
 langchain-ollama
 sqlglot
+pymysql

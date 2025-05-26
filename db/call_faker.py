@@ -6,58 +6,53 @@ from decimal import Decimal
 
 from utils.file_utils import write_to_json_file
 
-from do.actors import generate_actors
-from do.customers import generate_customers
-from do.directors import generate_directors
-from do.genres import generate_genres
-from do.movies import generate_movies
-from do.movie_actors import generate_movie_actors
-from do.reviews import generate_reviews
-from do.theaters import generate_theaters
-from do.screenings import generate_screenings
-from do.tickets import generate_tickets
+from do.Categories import generate_Categories
+from do.Products import generate_Products
+from do.Users import generate_Users
+from do.Cart import generate_Cart
+from do.Orders import generate_Orders
+from do.OrderItems import generate_OrderItems
+from do.Payments import generate_Payments
+from do.Reviews import generate_Reviews
+from do.Shipping import generate_Shipping
 
 
 def main_faker():
-    print('Calling generate_actors()...')
-    actors = generate_actors()
-    write_to_json_file('actors', actors)
+    print('Calling generate_Categories()...')
+    Categories = generate_Categories()
+    write_to_json_file('Categories', Categories)
 
-    print('Calling generate_customers()...')
-    customers = generate_customers()
-    write_to_json_file('customers', customers)
+    print('Calling generate_Products(Categories)...')
+    Products = generate_Products(Categories)
+    write_to_json_file('Products', Products)
 
-    print('Calling generate_directors()...')
-    directors = generate_directors()
-    write_to_json_file('directors', directors)
+    print('Calling generate_Users()...')
+    Users = generate_Users()
+    write_to_json_file('Users', Users)
 
-    print('Calling generate_genres()...')
-    genres = generate_genres()
-    write_to_json_file('genres', genres)
+    print('Calling generate_Cart(Users, Products)...')
+    Cart = generate_Cart(Users, Products)
+    write_to_json_file('Cart', Cart)
 
-    print('Calling generate_movies(genres, directors)...')
-    movies = generate_movies(genres, directors)
-    write_to_json_file('movies', movies)
+    print('Calling generate_Orders(Users)...')
+    Orders = generate_Orders(Users)
+    write_to_json_file('Orders', Orders)
 
-    print('Calling generate_movie_actors(movies, actors)...')
-    movie_actors = generate_movie_actors(movies, actors)
-    write_to_json_file('movie_actors', movie_actors)
+    print('Calling generate_OrderItems(Orders, Products)...')
+    OrderItems = generate_OrderItems(Orders, Products)
+    write_to_json_file('OrderItems', OrderItems)
 
-    print('Calling generate_reviews(customers, movies)...')
-    reviews = generate_reviews(customers, movies)
-    write_to_json_file('reviews', reviews)
+    print('Calling generate_Payments(Orders)...')
+    Payments = generate_Payments(Orders)
+    write_to_json_file('Payments', Payments)
 
-    print('Calling generate_theaters()...')
-    theaters = generate_theaters()
-    write_to_json_file('theaters', theaters)
+    print('Calling generate_Reviews(Users, Products)...')
+    Reviews = generate_Reviews(Users, Products)
+    write_to_json_file('Reviews', Reviews)
 
-    print('Calling generate_screenings(movies, theaters)...')
-    screenings = generate_screenings(movies, theaters)
-    write_to_json_file('screenings', screenings)
-
-    print('Calling generate_tickets(customers, screenings)...')
-    tickets = generate_tickets(customers, screenings)
-    write_to_json_file('tickets', tickets)
+    print('Calling generate_Shipping(Orders)...')
+    Shipping = generate_Shipping(Orders)
+    write_to_json_file('Shipping', Shipping)
 
 
 

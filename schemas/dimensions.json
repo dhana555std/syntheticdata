@@ -1,0 +1,69 @@
+{
+    "DimDate": {
+      "DateKey": "Primary key, use seq_start if not UUID",
+      "Date": "Description",
+      "Day": "Description",
+      "Month": "Description",
+      "Year": "Description",
+      "Quarter": "Description",
+      "Week": "Description",
+      "DayOfWeek": "Description"
+    },
+    "DimUser": {
+      "UserKey": "Primary key, auto increment, use seq_start",
+      "UserID": "This is not unique",
+      "Name": "Description",
+      "Email": "If email, use user_{seq_start}@gmail.com",
+      "Role": "This is not unique"
+    },
+    "DimProduct": {
+      "ProductKey": "Primary key, auto increment, use seq_start",
+      "ProductID": "This is not unique",
+      "Name": "This is not unique",
+      "CategoryName": "This is not unique",
+      "SKU": "If SKU, use sku_{seq_start}@sku.com"
+    },
+    "DimCategory": {
+      "CategoryKey": "Primary key, auto increment, use seq_start",
+      "CategoryID": "This is not unique",
+      "CategoryName": "This is not unique",
+      "Description": "This is not unique"
+    },
+    "DimShipping": {
+      "ShippingKey": "Primary key, auto increment, use seq_start",
+      "Carrier": "This is not unique",
+      "Country": "This is not unique",
+      "City": "This is not unique",
+      "State": "This is not unique",
+      "PostalCode": "This is not unique"
+    },
+    "DimPaymentMethod": {
+      "PaymentMethodKey": "Primary key, auto increment, use seq_start",
+      "Method": "This is not unique"
+    },
+    "FactOrders": {
+      "OrderKey": "Primary key, auto increment, use seq_start",
+      "UserKey": "This is not unique",
+      "ProductKey": "This is not unique",
+      "DateKey": "This is not unique",
+      "Quantity": "This is not unique",
+      "Price": "This is not unique",
+      "TotalAmount": "This is not unique"
+    },
+    "FactPayments": {
+      "PaymentKey": "Primary key, auto increment, use seq_start",
+      "OrderKey": "This is not unique",
+      "PaymentMethodKey": "This is not unique",
+      "DateKey": "This is not unique",
+      "Amount": "This is not unique"
+    },
+    "FactShipping": {
+      "ShippingKey": "Primary key, auto increment, use seq_start",
+      "OrderKey": "This is not unique",
+      "ShippingDateKey": "This is not unique",
+      "DeliveryDateKey": "This is not unique",
+      "ShippingCost": "This is not unique",
+      "ShippingMethod": "This is not unique"
+    }
+  }
+  
