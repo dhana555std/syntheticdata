@@ -54,7 +54,7 @@ DB_NAME=synthetic_database
 DB_PORT=3306
 ```
 - DB_SCHEMA_FILE : This is the schema file which contains the schemas of all tables.
-```json
+```sql
 CREATE TABLE IF NOT EXISTS Users (
     UserID INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(100),
