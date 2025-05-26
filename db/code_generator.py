@@ -1,7 +1,7 @@
 import json
 import re
 
-from langchain_core.output_parsers import StrOutputParser, PydanticOutputParser
+from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 
 from utils.llm_utils import get_llm
@@ -15,18 +15,25 @@ You are a Python code generator specialized in creating synthetic data using the
 Your task:
 Generate a complete Python function named generate_{table} that produces synthetic data for 
 a single database table, respecting constraints and dependencies.
-
 Inputs:
 1. ddl (string): The full CREATE TABLE SQL statement for the target table:
 {ddl}
 
 2. dependencies (list of dependency table names): The following are passed as lists of dicts representing
 foreign key values: {dependencies}
-
+{tables_str}
+- If column description says NOT UNIQUE then do not add constraints like fake.unique.*.
+  Example : "CategoryName": "Name of the category max length = 100 NOT UNIQUE"
 Requirements for generated code:
+- Do not generate main method (if __name__ == '__main__':) at all not needed.
+- If there is no constraint to uuid as primary key use seq_start.
 - The function signature should be:
-  def generate_{table}({dependencies},n=5000): maintain the order of arguments from dependency graph.
-  if the dependencies is empty string then generate:- def generate_{table}(n=5000)
+  def generate_{table}({dependencies},n=5000, seq_start=1): maintain the order of arguments from dependency graph.
+  if the dependencies is empty string then generate:- def generate_{table}(n=5000, seq_start=1)
+- If primary key is uuid then use uuid else use use seq_start as primary key and keep increamenting with i.
+- if PRIMARY key have CategoryID CHAR(36) PRIMARY KEY AUTO_INCREMENT, then use the UUID as the primary key instead of the seq_start.
+  Example : CategoryID = fake.uuid4()
+- Maintain referential integrity between tables.
 - Use Faker, random, and datetime to generate realistic data.
 - Use Faker, random, datetime, and timedelta from Python standard library.
 - NEVER use `faker.timedelta`. It does not exist.
@@ -54,7 +61,7 @@ Requirements for generated code:
 - Add None and a default value for all the arguments.
 - ⚠️ Never pass a formatted string (like "2025-01-14 09:33:50.000") as input to Faker datetime functions.
   Always keep values as datetime objects until final assignment into the dictionary.
-dt = faker.date_time_this_year(before_now=True)
+dt = faker.date_time_this_year(before_now=True)                  
 # Format as required
 formatted = dt.strftime("%Y-%m-%d %H:%M:%S") + ".000"
 
@@ -72,18 +79,23 @@ For example, session_id CHAR(36) allows a maximum of 36 characters, so Faker mus
 """)
 
 
-def generate_code(table, ddl, dependencies):
-    
-    """
-    """
+def generate_code(table, ddl, dependencies, tables_str):
+    print(f"before table string is : {tables_str}")
+    tables_str = str(tables_str)
+    if tables_str and tables_str.strip() != "":
+        tables_str = "Consider the following constraints for generating column data:\n" + tables_str
+
+    print(f"after table string is : {tables_str}")
+
     try:
         chain = PROMPT | llm | StrOutputParser()
         print(f"prompt is {PROMPT}")
 
         result = chain.invoke({
+            "tables_str": tables_str,
             "table": table,
             "dependencies": dependencies,
-            "ddl": ddl
+            "ddl": ddl,
         })
 
         code = re.sub(r"```(?:\w+)?\n(.*?)```", r"\1", result, flags=re.DOTALL)
@@ -91,4 +103,3 @@ def generate_code(table, ddl, dependencies):
         return code
     except Exception as e:
         print(e)
-
