@@ -6,7 +6,7 @@ This project is used to generate Synthetic data for the Database schema (DDL) wi
 </p>
 
 ## Input
-For example, consider the DDL mentioned in the [schema.sql file](db/schema.sql).
+For example, consider the DDL mentioned in the [schema.sql file](schemas/schema.sql).
 
 ## What does it do?
 - When the [main.py](db/main.py) is run it will make sure that it generates synthetic data that adheres to the the **Primary**, **Not Null**, **Unique** and **Referential Integrity** constraints as per the schema definition.
