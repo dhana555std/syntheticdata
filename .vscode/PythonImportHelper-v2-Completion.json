@@ -65,6 +65,38 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -121,38 +153,6 @@
         "documentation": {}
     },
     {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "date",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "Faker",
         "importPath": "faker",
         "description": "faker",
@@ -222,30 +222,6 @@
         "description": "faker",
         "isExtraImport": true,
         "detail": "faker",
-        "documentation": {}
-    },
-    {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
-        "isExtraImport": true,
-        "detail": "decimal",
-        "documentation": {}
-    },
-    {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
-        "isExtraImport": true,
-        "detail": "decimal",
-        "documentation": {}
-    },
-    {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
-        "isExtraImport": true,
-        "detail": "decimal",
         "documentation": {}
     },
     {
@@ -264,6 +240,22 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
         "documentation": {}
     },
     {
@@ -411,75 +403,75 @@
         "documentation": {}
     },
     {
-        "label": "generate_DimCategory",
-        "importPath": "do.DimCategory",
-        "description": "do.DimCategory",
+        "label": "generate_Categories",
+        "importPath": "do.Categories",
+        "description": "do.Categories",
         "isExtraImport": true,
-        "detail": "do.DimCategory",
+        "detail": "do.Categories",
         "documentation": {}
     },
     {
-        "label": "generate_DimDate",
-        "importPath": "do.DimDate",
-        "description": "do.DimDate",
+        "label": "generate_Products",
+        "importPath": "do.Products",
+        "description": "do.Products",
         "isExtraImport": true,
-        "detail": "do.DimDate",
+        "detail": "do.Products",
         "documentation": {}
     },
     {
-        "label": "generate_DimPaymentMethod",
-        "importPath": "do.DimPaymentMethod",
-        "description": "do.DimPaymentMethod",
+        "label": "generate_Users",
+        "importPath": "do.Users",
+        "description": "do.Users",
         "isExtraImport": true,
-        "detail": "do.DimPaymentMethod",
+        "detail": "do.Users",
         "documentation": {}
     },
     {
-        "label": "generate_DimProduct",
-        "importPath": "do.DimProduct",
-        "description": "do.DimProduct",
+        "label": "generate_Cart",
+        "importPath": "do.Cart",
+        "description": "do.Cart",
         "isExtraImport": true,
-        "detail": "do.DimProduct",
+        "detail": "do.Cart",
         "documentation": {}
     },
     {
-        "label": "generate_DimShipping",
-        "importPath": "do.DimShipping",
-        "description": "do.DimShipping",
+        "label": "generate_Orders",
+        "importPath": "do.Orders",
+        "description": "do.Orders",
         "isExtraImport": true,
-        "detail": "do.DimShipping",
+        "detail": "do.Orders",
         "documentation": {}
     },
     {
-        "label": "generate_DimUser",
-        "importPath": "do.DimUser",
-        "description": "do.DimUser",
+        "label": "generate_OrderItems",
+        "importPath": "do.OrderItems",
+        "description": "do.OrderItems",
         "isExtraImport": true,
-        "detail": "do.DimUser",
+        "detail": "do.OrderItems",
         "documentation": {}
     },
     {
-        "label": "generate_FactOrders",
-        "importPath": "do.FactOrders",
-        "description": "do.FactOrders",
+        "label": "generate_Payments",
+        "importPath": "do.Payments",
+        "description": "do.Payments",
         "isExtraImport": true,
-        "detail": "do.FactOrders",
+        "detail": "do.Payments",
         "documentation": {}
     },
     {
-        "label": "generate_FactPayments",
-        "importPath": "do.FactPayments",
-        "description": "do.FactPayments",
+        "label": "generate_Reviews",
+        "importPath": "do.Reviews",
+        "description": "do.Reviews",
         "isExtraImport": true,
-        "detail": "do.FactPayments",
+        "detail": "do.Reviews",
         "documentation": {}
     },
     {
-        "label": "generate_FactShipping",
-        "importPath": "do.FactShipping",
-        "description": "do.FactShipping",
+        "label": "generate_Shipping",
+        "importPath": "do.Shipping",
+        "description": "do.Shipping",
         "isExtraImport": true,
-        "detail": "do.FactShipping",
+        "detail": "do.Shipping",
         "documentation": {}
     },
     {
@@ -711,84 +703,84 @@
         "documentation": {}
     },
     {
-        "label": "generate_DimCategory",
+        "label": "generate_Cart",
         "kind": 2,
-        "importPath": "db.do.DimCategory",
-        "description": "db.do.DimCategory",
-        "peekOfCode": "def generate_DimCategory(n=5000, seq_start=1):\n    \"\"\"\n    Generates synthetic data for the DimCategory table.\n    Args:\n        n (int): The number of rows to generate.\n        seq_start (int): The starting value for the primary key sequence.\n    Returns:\n        list: A list of dictionaries, where each dictionary represents a row.\n    \"\"\"\n    fake = Faker()",
-        "detail": "db.do.DimCategory",
+        "importPath": "db.do.Cart",
+        "description": "db.do.Cart",
+        "peekOfCode": "def generate_Cart(Users=None, Products=None, n=5000, seq_start=5001):\n    fake = Faker()\n    data = []\n    if not Users or not Products:\n        print(\"Warning: Dependency data (Users, Products) not provided. Cannot generate Cart data.\")\n        return []\n    user_ids = [user['UserID'] for user in Users if 'UserID' in user]\n    product_ids = [product['ProductID'] for product in Products if 'ProductID' in product]\n    if not user_ids or not product_ids:\n        print(\"Warning: Dependency data (Users, Products) is empty or missing required keys. Cannot generate Cart data.\")",
+        "detail": "db.do.Cart",
         "documentation": {}
     },
     {
-        "label": "generate_DimDate",
+        "label": "generate_Categories",
         "kind": 2,
-        "importPath": "db.do.DimDate",
-        "description": "db.do.DimDate",
-        "peekOfCode": "def generate_DimDate(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    current_date_key = seq_start\n    # Start date for the dimension table\n    start_date = datetime(2020, 1, 1)\n    for i in range(n):\n        current_date = start_date + timedelta(days=i)\n        # Derive date parts\n        year = current_date.year",
-        "detail": "db.do.DimDate",
+        "importPath": "db.do.Categories",
+        "description": "db.do.Categories",
+        "peekOfCode": "def generate_Categories(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    for i in range(n):\n        # CategoryID CHAR(36) PRIMARY KEY AUTO_INCREMENT - Use UUID as per instruction\n        category_id = fake.uuid4()\n        # CategoryName VARCHAR(100) - Name of the category max length = 100 NOT UNIQUE\n        # Generate a word or phrase, ensuring it's within 100 characters\n        category_name = fake.word()\n        while len(category_name) > 100:",
+        "detail": "db.do.Categories",
         "documentation": {}
     },
     {
-        "label": "generate_DimPaymentMethod",
+        "label": "generate_OrderItems",
         "kind": 2,
-        "importPath": "db.do.DimPaymentMethod",
-        "description": "db.do.DimPaymentMethod",
-        "peekOfCode": "def generate_DimPaymentMethod(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    for i in range(n):\n        payment_method_key = seq_start + i\n        method = fake.word()\n        if len(method) > 50:\n            method = method[:50]\n        data.append({\n            \"PaymentMethodKey\": payment_method_key,",
-        "detail": "db.do.DimPaymentMethod",
+        "importPath": "db.do.OrderItems",
+        "description": "db.do.OrderItems",
+        "peekOfCode": "def generate_OrderItems(Orders=None, Products=None, n=5000, seq_start=5001):\n    fake = Faker()\n    order_items_data = []\n    # Check if dependency data is available\n    order_ids = [order['OrderID'] for order in Orders] if Orders else []\n    product_ids = [product['ProductID'] for product in Products] if Products else []\n    if not order_ids or not product_ids:\n        print(\"Warning: Missing Orders or Products data to generate OrderItems. Returning empty list.\")\n        return []\n    for i in range(n):",
+        "detail": "db.do.OrderItems",
         "documentation": {}
     },
     {
-        "label": "generate_DimProduct",
+        "label": "generate_Orders",
         "kind": 2,
-        "importPath": "db.do.DimProduct",
-        "description": "db.do.DimProduct",
-        "peekOfCode": "def generate_DimProduct(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    for i in range(n):\n        product_key = seq_start + i\n        # ProductID: Not unique, generate a random integer\n        product_id = fake.random_int(min=1000, max=99999)\n        # Name: Not unique, generate a product-like name\n        name = fake.catch_phrase()\n        # Ensure length respects VARCHAR(255) - catch_phrase is usually short",
-        "detail": "db.do.DimProduct",
+        "importPath": "db.do.Orders",
+        "description": "db.do.Orders",
+        "peekOfCode": "def generate_Orders(Users, n=5000, seq_start=5001):\n    \"\"\"\n    Generates synthetic data for the Orders table.\n    Args:\n        Users (list): A list of dictionaries representing rows from the Users table,\n                      used for foreign key references.\n        n (int): The number of rows to generate.\n        seq_start (int): The starting value for the auto-incrementing primary key.\n    Returns:\n        list: A list of dictionaries, where each dictionary represents a row",
+        "detail": "db.do.Orders",
         "documentation": {}
     },
     {
-        "label": "generate_DimShipping",
+        "label": "generate_Payments",
         "kind": 2,
-        "importPath": "db.do.DimShipping",
-        "description": "db.do.DimShipping",
-        "peekOfCode": "def generate_DimShipping(n=5000, seq_start=1):\n    \"\"\"\n    Generates synthetic data for the DimShipping table.\n    Args:\n        n (int): The number of rows to generate.\n        seq_start (int): The starting value for the ShippingKey primary key.\n    Returns:\n        list: A list of dictionaries, where each dictionary represents a row\n              in the DimShipping table.\n    \"\"\"",
-        "detail": "db.do.DimShipping",
+        "importPath": "db.do.Payments",
+        "description": "db.do.Payments",
+        "peekOfCode": "def generate_Payments(Orders, n=5000, seq_start=5001):\n    fake = Faker()\n    data = []\n    if not Orders:\n        # Handle the case where there are no parent Orders to reference\n        # This might mean generating data without valid foreign keys,\n        # or skipping generation if Orders is empty is required.\n        # For now, let's assume we need to generate some data,\n        # perhaps with None or a placeholder if the FK is nullable,\n        # but OrderID is NOT NULL based on typical FK constraints.",
+        "detail": "db.do.Payments",
         "documentation": {}
     },
     {
-        "label": "generate_DimUser",
+        "label": "generate_Products",
         "kind": 2,
-        "importPath": "db.do.DimUser",
-        "description": "db.do.DimUser",
-        "peekOfCode": "def generate_DimUser(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    roles = ['Admin', 'User', 'Moderator', 'Guest'] # Example roles\n    for i in range(n):\n        user_key = seq_start + i\n        # UserID: Not unique, generate random int\n        user_id = random.randint(1000, 99999)\n        # Name: Description\n        name = fake.name()",
-        "detail": "db.do.DimUser",
+        "importPath": "db.do.Products",
+        "description": "db.do.Products",
+        "peekOfCode": "def generate_Products(Categories=None, n=5000, seq_start=5001):\n    \"\"\"\n    Generates synthetic data for the Products table.\n    Args:\n        Categories (list): A list of dictionaries representing the Categories table,\n                           used for foreign key lookups. Defaults to None.\n        n (int): The number of rows to generate. Defaults to 5000.\n        seq_start (int): The starting number for sequence-based IDs (e.g., ProductID, SKU). Defaults to 1.\n    Returns:\n        list: A list of dictionaries, where each dictionary represents a row",
+        "detail": "db.do.Products",
         "documentation": {}
     },
     {
-        "label": "generate_FactOrders",
+        "label": "generate_Reviews",
         "kind": 2,
-        "importPath": "db.do.FactOrders",
-        "description": "db.do.FactOrders",
-        "peekOfCode": "def generate_FactOrders(DimUser=None, DimProduct=None, DimDate=None, n=5000, seq_start=1):\n    \"\"\"\n    Generates synthetic data for the FactOrders table.\n    Args:\n        DimUser: List of dictionaries from DimUser table (must contain 'UserKey').\n        DimProduct: List of dictionaries from DimProduct table (must contain 'ProductKey').\n        DimDate: List of dictionaries from DimDate table (must contain 'DateKey').\n        n: The number of rows to generate.\n        seq_start: The starting sequence number for the primary key.\n    Returns:",
-        "detail": "db.do.FactOrders",
+        "importPath": "db.do.Reviews",
+        "description": "db.do.Reviews",
+        "peekOfCode": "def generate_Reviews(Users=None, Products=None, n=5000, seq_start=5001):\n    \"\"\"\n    Generates synthetic data for the Reviews table.\n    Args:\n        Users (list[dict], optional): List of dictionaries representing Users data,\n                                       used for foreign key references. Defaults to None.\n        Products (list[dict], optional): List of dictionaries representing Products data,\n                                         used for foreign key references. Defaults to None.\n        n (int): The number of rows to generate. Defaults to 5000.\n        seq_start (int): The starting number for the sequence-based primary key. Defaults to 1.",
+        "detail": "db.do.Reviews",
         "documentation": {}
     },
     {
-        "label": "generate_FactPayments",
+        "label": "generate_Shipping",
         "kind": 2,
-        "importPath": "db.do.FactPayments",
-        "description": "db.do.FactPayments",
-        "peekOfCode": "def generate_FactPayments(FactOrders=None, DimPaymentMethod=None, DimDate=None, n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    # Extract potential foreign key values from dependencies\n    order_keys = [order['OrderKey'] for order in FactOrders] if FactOrders else []\n    payment_method_keys = [method['PaymentMethodKey'] for method in DimPaymentMethod] if DimPaymentMethod else []\n    date_keys = [date['DateKey'] for date in DimDate] if DimDate else []\n    # Check if essential foreign key data is available\n    if not order_keys or not payment_method_keys or not date_keys:\n        # Cannot generate meaningful fact data without dimensions/orders",
-        "detail": "db.do.FactPayments",
+        "importPath": "db.do.Shipping",
+        "description": "db.do.Shipping",
+        "peekOfCode": "def generate_Shipping(Orders, n=5000, seq_start=5001):\n    fake = Faker()\n    shipping_data = []\n    order_ids = [order['OrderID'] for order in Orders] if Orders else []\n    for i in range(n):\n        shipping_id = seq_start + i\n        # Ensure there are orders to link to\n        if not order_ids:\n            # Handle the case where no orders exist, maybe skip or link to a dummy ID\n            # For now, let's skip generating shipping if no orders exist",
+        "detail": "db.do.Shipping",
         "documentation": {}
     },
     {
-        "label": "generate_FactShipping",
+        "label": "generate_Users",
         "kind": 2,
-        "importPath": "db.do.FactShipping",
-        "description": "db.do.FactShipping",
-        "peekOfCode": "def generate_FactShipping(FactOrders=None, DimDate=None, n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    if not FactOrders or not isinstance(FactOrders, list) or not FactOrders:\n        print(\"Warning: FactOrders data not provided or is empty. Cannot generate FactShipping.\")\n        return []\n    if not DimDate or not isinstance(DimDate, list) or not DimDate:\n        print(\"Warning: DimDate data not provided or is empty. Cannot generate FactShipping.\")\n        return []\n    # Extract OrderKeys from FactOrders",
-        "detail": "db.do.FactShipping",
+        "importPath": "db.do.Users",
+        "description": "db.do.Users",
+        "peekOfCode": "def generate_Users(n=5000, seq_start=5001):\n    fake = Faker()\n    users = []\n    for i in range(n):\n        user_id = seq_start + i\n        # Name: VARCHAR(100), NOT UNIQUE\n        name = fake.name()[:100] # Ensure max length\n        # Email: VARCHAR(100) UNIQUE\n        # Using sequence number to guarantee uniqueness and ensure max length\n        email = f'user_{user_id}@example.com'[:100] ",
+        "detail": "db.do.Users",
         "documentation": {}
     },
     {
@@ -886,7 +878,7 @@
         "kind": 2,
         "importPath": "db.call_faker",
         "description": "db.call_faker",
-        "peekOfCode": "def main_faker():\n    print('Calling generate_DimCategory()...')\n    DimCategory = generate_DimCategory()\n    write_to_json_file('DimCategory', DimCategory)\n    print('Calling generate_DimDate()...')\n    DimDate = generate_DimDate()\n    write_to_json_file('DimDate', DimDate)\n    print('Calling generate_DimPaymentMethod()...')\n    DimPaymentMethod = generate_DimPaymentMethod()\n    write_to_json_file('DimPaymentMethod', DimPaymentMethod)",
+        "peekOfCode": "def main_faker():\n    print('Calling generate_Categories()...')\n    Categories = generate_Categories()\n    write_to_json_file('Categories', Categories)\n    print('Calling generate_Products(Categories)...')\n    Products = generate_Products(Categories)\n    write_to_json_file('Products', Products)\n    print('Calling generate_Users()...')\n    Users = generate_Users()\n    write_to_json_file('Users', Users)",
         "detail": "db.call_faker",
         "documentation": {}
     },

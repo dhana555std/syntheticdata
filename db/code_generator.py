@@ -22,7 +22,7 @@ Inputs:
 2. dependencies (list of dependency table names): The following are passed as lists of dicts representing
 foreign key values: {dependencies}
 {tables_str}
-- If column description saya NOT UNIQUE then do not add contrints like fake.unique.*.
+- If column description says NOT UNIQUE then do not add constraints like fake.unique.*.
   Example : "CategoryName": "Name of the category max length = 100 NOT UNIQUE"
 Requirements for generated code:
 - Do not generate main method (if __name__ == '__main__':) at all not needed.
@@ -31,6 +31,8 @@ Requirements for generated code:
   def generate_{table}({dependencies},n=5000, seq_start=1): maintain the order of arguments from dependency graph.
   if the dependencies is empty string then generate:- def generate_{table}(n=5000, seq_start=1)
 - If primary key is uuid then use uuid else use use seq_start as primary key and keep increamenting with i.
+- if PRIMARY key have CategoryID CHAR(36) PRIMARY KEY AUTO_INCREMENT, then use the UUID as the primary key instead of the seq_start.
+  Example : CategoryID = fake.uuid4()
 - Maintain referential integrity between tables.
 - Use Faker, random, and datetime to generate realistic data.
 - Use Faker, random, datetime, and timedelta from Python standard library.

@@ -9,14 +9,14 @@ CREATE TABLE Users (
 );
 
 CREATE TABLE Categories (
-    CategoryID INT PRIMARY KEY AUTO_INCREMENT,
+    CategoryID CHAR(36) PRIMARY KEY,
     CategoryName VARCHAR(100),
     Description TEXT
 );
 
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY AUTO_INCREMENT,
-    CategoryID INT,
+    CategoryID CHAR(36),
     Name VARCHAR(255),
     Description TEXT,
     Price DECIMAL(10, 2),
