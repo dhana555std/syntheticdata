@@ -20,7 +20,7 @@ def main(schema_file):
     sorted_tables = get_table_order(schema_file)
     base_temp_dir = tempfile.gettempdir()
     full_output_dir = os.path.join(base_temp_dir, "output")
-    inserts_dir = generate_all_inserts(sorted_tables, ddls, full_output_dir)
+    all_inserts, inserts_dir = generate_all_inserts(sorted_tables, ddls, full_output_dir)
     insert_sql_data(sorted_tables, inserts_dir)
 
 if __name__ == "__main__":

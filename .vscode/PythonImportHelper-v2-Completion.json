@@ -1,5 +1,254 @@
 [
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -15,22 +264,6 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
-        "isExtraImport": true,
-        "detail": "decimal",
-        "documentation": {}
-    },
-    {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
-        "isExtraImport": true,
-        "detail": "decimal",
         "documentation": {}
     },
     {
@@ -75,11 +308,27 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "init_chat_model",
         "importPath": "langchain.chat_models",
         "description": "langchain.chat_models",
         "isExtraImport": true,
         "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
         "documentation": {}
     },
     {
@@ -137,22 +386,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "pymysql",
         "kind": 6,
         "isExtraImport": true,
@@ -178,83 +411,75 @@
         "documentation": {}
     },
     {
-        "label": "generate_actors",
-        "importPath": "do.actors",
-        "description": "do.actors",
+        "label": "generate_DimCategory",
+        "importPath": "do.DimCategory",
+        "description": "do.DimCategory",
         "isExtraImport": true,
-        "detail": "do.actors",
+        "detail": "do.DimCategory",
         "documentation": {}
     },
     {
-        "label": "generate_customers",
-        "importPath": "do.customers",
-        "description": "do.customers",
+        "label": "generate_DimDate",
+        "importPath": "do.DimDate",
+        "description": "do.DimDate",
         "isExtraImport": true,
-        "detail": "do.customers",
+        "detail": "do.DimDate",
         "documentation": {}
     },
     {
-        "label": "generate_directors",
-        "importPath": "do.directors",
-        "description": "do.directors",
+        "label": "generate_DimPaymentMethod",
+        "importPath": "do.DimPaymentMethod",
+        "description": "do.DimPaymentMethod",
         "isExtraImport": true,
-        "detail": "do.directors",
+        "detail": "do.DimPaymentMethod",
         "documentation": {}
     },
     {
-        "label": "generate_genres",
-        "importPath": "do.genres",
-        "description": "do.genres",
+        "label": "generate_DimProduct",
+        "importPath": "do.DimProduct",
+        "description": "do.DimProduct",
         "isExtraImport": true,
-        "detail": "do.genres",
+        "detail": "do.DimProduct",
         "documentation": {}
     },
     {
-        "label": "generate_movies",
-        "importPath": "do.movies",
-        "description": "do.movies",
+        "label": "generate_DimShipping",
+        "importPath": "do.DimShipping",
+        "description": "do.DimShipping",
         "isExtraImport": true,
-        "detail": "do.movies",
+        "detail": "do.DimShipping",
         "documentation": {}
     },
     {
-        "label": "generate_movie_actors",
-        "importPath": "do.movie_actors",
-        "description": "do.movie_actors",
+        "label": "generate_DimUser",
+        "importPath": "do.DimUser",
+        "description": "do.DimUser",
         "isExtraImport": true,
-        "detail": "do.movie_actors",
+        "detail": "do.DimUser",
         "documentation": {}
     },
     {
-        "label": "generate_reviews",
-        "importPath": "do.reviews",
-        "description": "do.reviews",
+        "label": "generate_FactOrders",
+        "importPath": "do.FactOrders",
+        "description": "do.FactOrders",
         "isExtraImport": true,
-        "detail": "do.reviews",
+        "detail": "do.FactOrders",
         "documentation": {}
     },
     {
-        "label": "generate_theaters",
-        "importPath": "do.theaters",
-        "description": "do.theaters",
+        "label": "generate_FactPayments",
+        "importPath": "do.FactPayments",
+        "description": "do.FactPayments",
         "isExtraImport": true,
-        "detail": "do.theaters",
+        "detail": "do.FactPayments",
         "documentation": {}
     },
     {
-        "label": "generate_screenings",
-        "importPath": "do.screenings",
-        "description": "do.screenings",
+        "label": "generate_FactShipping",
+        "importPath": "do.FactShipping",
+        "description": "do.FactShipping",
         "isExtraImport": true,
-        "detail": "do.screenings",
-        "documentation": {}
-    },
-    {
-        "label": "generate_tickets",
-        "importPath": "do.tickets",
-        "description": "do.tickets",
-        "isExtraImport": true,
-        "detail": "do.tickets",
+        "detail": "do.FactShipping",
         "documentation": {}
     },
     {
@@ -486,6 +711,87 @@
         "documentation": {}
     },
     {
+        "label": "generate_DimCategory",
+        "kind": 2,
+        "importPath": "db.do.DimCategory",
+        "description": "db.do.DimCategory",
+        "peekOfCode": "def generate_DimCategory(n=5000, seq_start=1):\n    \"\"\"\n    Generates synthetic data for the DimCategory table.\n    Args:\n        n (int): The number of rows to generate.\n        seq_start (int): The starting value for the primary key sequence.\n    Returns:\n        list: A list of dictionaries, where each dictionary represents a row.\n    \"\"\"\n    fake = Faker()",
+        "detail": "db.do.DimCategory",
+        "documentation": {}
+    },
+    {
+        "label": "generate_DimDate",
+        "kind": 2,
+        "importPath": "db.do.DimDate",
+        "description": "db.do.DimDate",
+        "peekOfCode": "def generate_DimDate(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    current_date_key = seq_start\n    # Start date for the dimension table\n    start_date = datetime(2020, 1, 1)\n    for i in range(n):\n        current_date = start_date + timedelta(days=i)\n        # Derive date parts\n        year = current_date.year",
+        "detail": "db.do.DimDate",
+        "documentation": {}
+    },
+    {
+        "label": "generate_DimPaymentMethod",
+        "kind": 2,
+        "importPath": "db.do.DimPaymentMethod",
+        "description": "db.do.DimPaymentMethod",
+        "peekOfCode": "def generate_DimPaymentMethod(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    for i in range(n):\n        payment_method_key = seq_start + i\n        method = fake.word()\n        if len(method) > 50:\n            method = method[:50]\n        data.append({\n            \"PaymentMethodKey\": payment_method_key,",
+        "detail": "db.do.DimPaymentMethod",
+        "documentation": {}
+    },
+    {
+        "label": "generate_DimProduct",
+        "kind": 2,
+        "importPath": "db.do.DimProduct",
+        "description": "db.do.DimProduct",
+        "peekOfCode": "def generate_DimProduct(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    for i in range(n):\n        product_key = seq_start + i\n        # ProductID: Not unique, generate a random integer\n        product_id = fake.random_int(min=1000, max=99999)\n        # Name: Not unique, generate a product-like name\n        name = fake.catch_phrase()\n        # Ensure length respects VARCHAR(255) - catch_phrase is usually short",
+        "detail": "db.do.DimProduct",
+        "documentation": {}
+    },
+    {
+        "label": "generate_DimShipping",
+        "kind": 2,
+        "importPath": "db.do.DimShipping",
+        "description": "db.do.DimShipping",
+        "peekOfCode": "def generate_DimShipping(n=5000, seq_start=1):\n    \"\"\"\n    Generates synthetic data for the DimShipping table.\n    Args:\n        n (int): The number of rows to generate.\n        seq_start (int): The starting value for the ShippingKey primary key.\n    Returns:\n        list: A list of dictionaries, where each dictionary represents a row\n              in the DimShipping table.\n    \"\"\"",
+        "detail": "db.do.DimShipping",
+        "documentation": {}
+    },
+    {
+        "label": "generate_DimUser",
+        "kind": 2,
+        "importPath": "db.do.DimUser",
+        "description": "db.do.DimUser",
+        "peekOfCode": "def generate_DimUser(n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    roles = ['Admin', 'User', 'Moderator', 'Guest'] # Example roles\n    for i in range(n):\n        user_key = seq_start + i\n        # UserID: Not unique, generate random int\n        user_id = random.randint(1000, 99999)\n        # Name: Description\n        name = fake.name()",
+        "detail": "db.do.DimUser",
+        "documentation": {}
+    },
+    {
+        "label": "generate_FactOrders",
+        "kind": 2,
+        "importPath": "db.do.FactOrders",
+        "description": "db.do.FactOrders",
+        "peekOfCode": "def generate_FactOrders(DimUser=None, DimProduct=None, DimDate=None, n=5000, seq_start=1):\n    \"\"\"\n    Generates synthetic data for the FactOrders table.\n    Args:\n        DimUser: List of dictionaries from DimUser table (must contain 'UserKey').\n        DimProduct: List of dictionaries from DimProduct table (must contain 'ProductKey').\n        DimDate: List of dictionaries from DimDate table (must contain 'DateKey').\n        n: The number of rows to generate.\n        seq_start: The starting sequence number for the primary key.\n    Returns:",
+        "detail": "db.do.FactOrders",
+        "documentation": {}
+    },
+    {
+        "label": "generate_FactPayments",
+        "kind": 2,
+        "importPath": "db.do.FactPayments",
+        "description": "db.do.FactPayments",
+        "peekOfCode": "def generate_FactPayments(FactOrders=None, DimPaymentMethod=None, DimDate=None, n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    # Extract potential foreign key values from dependencies\n    order_keys = [order['OrderKey'] for order in FactOrders] if FactOrders else []\n    payment_method_keys = [method['PaymentMethodKey'] for method in DimPaymentMethod] if DimPaymentMethod else []\n    date_keys = [date['DateKey'] for date in DimDate] if DimDate else []\n    # Check if essential foreign key data is available\n    if not order_keys or not payment_method_keys or not date_keys:\n        # Cannot generate meaningful fact data without dimensions/orders",
+        "detail": "db.do.FactPayments",
+        "documentation": {}
+    },
+    {
+        "label": "generate_FactShipping",
+        "kind": 2,
+        "importPath": "db.do.FactShipping",
+        "description": "db.do.FactShipping",
+        "peekOfCode": "def generate_FactShipping(FactOrders=None, DimDate=None, n=5000, seq_start=1):\n    fake = Faker()\n    data = []\n    if not FactOrders or not isinstance(FactOrders, list) or not FactOrders:\n        print(\"Warning: FactOrders data not provided or is empty. Cannot generate FactShipping.\")\n        return []\n    if not DimDate or not isinstance(DimDate, list) or not DimDate:\n        print(\"Warning: DimDate data not provided or is empty. Cannot generate FactShipping.\")\n        return []\n    # Extract OrderKeys from FactOrders",
+        "detail": "db.do.FactShipping",
+        "documentation": {}
+    },
+    {
         "label": "topological_sort",
         "kind": 2,
         "importPath": "db.utils.file_utils",
@@ -517,7 +823,7 @@
         "kind": 2,
         "importPath": "db.utils.llm_utils",
         "description": "db.utils.llm_utils",
-        "peekOfCode": "def get_llm():\n    load_dotenv()\n    model = os.getenv(\"LLM_MODEL\")\n    model_provider = os.getenv(\"LLM_MODEL_PROVIDER\")\n    print(f\"LLM_MODEL={model} and LLM_MODEL_PROVIDER={model_provider}\")\n    return init_chat_model(model=model, model_provider=model_provider)",
+        "peekOfCode": "def get_llm():\n    load_dotenv()\n    model = os.getenv(\"LLM_MODEL\")\n    model_provider = os.getenv(\"LLM_MODEL_PROVIDER\")\n    print(f\"LLM_MODEL={model} and LLM_MODEL_PROVIDER={model_provider}\")\n    if model_provider == \"google_genai\":\n        return ChatGoogleGenerativeAI(\n            model=model,\n            google_api_key=os.getenv(\"GEMINI_API_KEY\")\n        )",
         "detail": "db.utils.llm_utils",
         "documentation": {}
     },
@@ -562,7 +868,7 @@
         "kind": 2,
         "importPath": "db.utils.sql_utils",
         "description": "db.utils.sql_utils",
-        "peekOfCode": "def log_write(log_path, message):\n    with open(log_path, \"a\") as f:\n        f.write(message + \"\\n\")\ndef insert_sql_data(sorted_tables, inserts_dir):\n    logs_dir = os.path.join(inserts_dir, \"logs\")\n    os.makedirs(logs_dir, exist_ok=True)\n    log_file = os.path.join(logs_dir, \"insert_log.txt\")\n    conn = get_db_connection()\n    cursor = conn.cursor()\n    if any(isinstance(t, list) for t in sorted_tables):",
+        "peekOfCode": "def log_write(log_path, message):\n    with open(log_path, \"a\") as f:\n        f.write(message + \"\\n\")\ndef insert_sql_data(sorted_tables, inserts_dir):\n    logs_dir = os.path.join(inserts_dir, \"logs\")\n    os.makedirs(logs_dir, exist_ok=True)\n    log_file = os.path.join(logs_dir, \"insert_log.txt\")\n    conn = get_db_connection()\n    cursor = conn.cursor()\n    # if any(isinstance(t, list) for t in sorted_tables):",
         "detail": "db.utils.sql_utils",
         "documentation": {}
     },
@@ -571,7 +877,7 @@
         "kind": 2,
         "importPath": "db.utils.sql_utils",
         "description": "db.utils.sql_utils",
-        "peekOfCode": "def insert_sql_data(sorted_tables, inserts_dir):\n    logs_dir = os.path.join(inserts_dir, \"logs\")\n    os.makedirs(logs_dir, exist_ok=True)\n    log_file = os.path.join(logs_dir, \"insert_log.txt\")\n    conn = get_db_connection()\n    cursor = conn.cursor()\n    if any(isinstance(t, list) for t in sorted_tables):\n        sorted_tables = [item for sublist in sorted_tables for item in sublist]\n    for table in sorted_tables:\n        print(f\"Processing table: {table}\")",
+        "peekOfCode": "def insert_sql_data(sorted_tables, inserts_dir):\n    logs_dir = os.path.join(inserts_dir, \"logs\")\n    os.makedirs(logs_dir, exist_ok=True)\n    log_file = os.path.join(logs_dir, \"insert_log.txt\")\n    conn = get_db_connection()\n    cursor = conn.cursor()\n    # if any(isinstance(t, list) for t in sorted_tables):\n    #     sorted_tables = [item for sublist in sorted_tables for item in sublist]\n    sorted_tables = sorted_tables[0]\n    for table in sorted_tables:",
         "detail": "db.utils.sql_utils",
         "documentation": {}
     },
@@ -580,7 +886,7 @@
         "kind": 2,
         "importPath": "db.call_faker",
         "description": "db.call_faker",
-        "peekOfCode": "def main_faker():\n    print('Calling generate_actors()...')\n    actors = generate_actors()\n    write_to_json_file('actors', actors)\n    print('Calling generate_customers()...')\n    customers = generate_customers()\n    write_to_json_file('customers', customers)\n    print('Calling generate_directors()...')\n    directors = generate_directors()\n    write_to_json_file('directors', directors)",
+        "peekOfCode": "def main_faker():\n    print('Calling generate_DimCategory()...')\n    DimCategory = generate_DimCategory()\n    write_to_json_file('DimCategory', DimCategory)\n    print('Calling generate_DimDate()...')\n    DimDate = generate_DimDate()\n    write_to_json_file('DimDate', DimDate)\n    print('Calling generate_DimPaymentMethod()...')\n    DimPaymentMethod = generate_DimPaymentMethod()\n    write_to_json_file('DimPaymentMethod', DimPaymentMethod)",
         "detail": "db.call_faker",
         "documentation": {}
     },
@@ -589,7 +895,7 @@
         "kind": 2,
         "importPath": "db.code_generator",
         "description": "db.code_generator",
-        "peekOfCode": "def generate_code(table, ddl, dependencies):\n    \"\"\"\n    \"\"\"\n    try:\n        chain = PROMPT | llm | StrOutputParser()\n        print(f\"prompt is {PROMPT}\")\n        result = chain.invoke({\n            \"table\": table,\n            \"dependencies\": dependencies,\n            \"ddl\": ddl",
+        "peekOfCode": "def generate_code(table, ddl, dependencies, tables_str):\n    print(f\"before table string is : {tables_str}\")\n    tables_str = str(tables_str)\n    if tables_str and tables_str.strip() != \"\":\n      tables_str = \"Consider the following constraints for generating column data:\\n\" + tables_str\n    print(f\"after table string is : {tables_str}\")\n    \"\"\"\n    \"\"\"\n    try:\n        chain = PROMPT | llm | StrOutputParser()",
         "detail": "db.code_generator",
         "documentation": {}
     },
@@ -625,7 +931,7 @@
         "kind": 5,
         "importPath": "db.code_generator",
         "description": "db.code_generator",
-        "peekOfCode": "dt = faker.date_time_this_year(before_now=True)\n# Format as required\nformatted = dt.strftime(\"%Y-%m-%d %H:%M:%S\") + \".000\"\nExample 1 : if in dependencies roles → [] there is no any dependency generate function structure like this\n            def generate_roles(n=5000):\nExample 2 : if in dependencies inventory → ['products', 'warehouses'] there are two dependencies then generate function structure like this\n            def generate_inventory(warehouses, products, n=5000):\nExample 3 : if in function structure there is created_by_data or updated_by_data generate function structure like this\n            def function_name(created_by_data=None, updated_by_data=None, n=5000):\nExample 4: Faker should respect schema constraints on data length.",
+        "peekOfCode": "dt = faker.date_time_this_year(before_now=True)                  \n# Format as required\nformatted = dt.strftime(\"%Y-%m-%d %H:%M:%S\") + \".000\"\nExample 1 : if in dependencies roles → [] there is no any dependency generate function structure like this\n            def generate_roles(n=5000):\nExample 2 : if in dependencies inventory → ['products', 'warehouses'] there are two dependencies then generate function structure like this\n            def generate_inventory(warehouses, products, n=5000):\nExample 3 : if in function structure there is created_by_data or updated_by_data generate function structure like this\n            def function_name(created_by_data=None, updated_by_data=None, n=5000):\nExample 4: Faker should respect schema constraints on data length.",
         "detail": "db.code_generator",
         "documentation": {}
     },
@@ -715,7 +1021,7 @@
         "kind": 2,
         "importPath": "db.ddl_info_extractor",
         "description": "db.ddl_info_extractor",
-        "peekOfCode": "def extract_table_dependencies(statements) -> Dict[str, List[str]]:\n    \"\"\"\n    Extract tables and their foreign key dependencies.\n    Supports both explicit and inline foreign keys.\n    Returns a dictionary where key is the table and value is a list of referenced tables.\n    \"\"\"\n    dependencies = defaultdict(list)\n    all_tables = []\n    create_table_regex = re.compile(\n        r'CREATE TABLE IF NOT EXISTS\\s+[`\"]?(\\w+)[`\"]?', re.IGNORECASE)",
+        "peekOfCode": "def extract_table_dependencies(statements) -> Dict[str, List[str]]:\n    \"\"\"\n    Extract tables and their foreign key dependencies.\n    Supports both explicit and inline foreign keys.\n    Returns a dictionary where key is the table and value is a list of referenced tables.\n    \"\"\"\n    dependencies = defaultdict(list)\n    all_tables = []\n    create_table_regex = re.compile(\n    r'CREATE TABLE\\s+(?:IF NOT EXISTS\\s+)?[`\"]?(\\w+)[`\"]?', re.IGNORECASE)",
         "detail": "db.ddl_info_extractor",
         "documentation": {}
     },
@@ -753,6 +1059,15 @@
         "description": "db.main",
         "peekOfCode": "def main(schema_file):\n    ddls = get_ddls_for_tables(schema_file)\n    sorted_tables, dependency_graphs = get_table_order(schema_file)\n    create_insertion_data_methods(sorted_tables, dependency_graphs, ddls)\n    generate_caller_script_with_vars(dependency_graphs, sorted_tables)\nif __name__ == \"__main__\":\n    start = datetime.now()\n    print(f\"start time is {start}.\")\n    load_dotenv()\n    schema_file_path = os.getenv(\"DB_SCHEMA_FILE\")",
         "detail": "db.main",
+        "documentation": {}
+    },
+    {
+        "label": "load_schema_info",
+        "kind": 2,
+        "importPath": "db.process_tables",
+        "description": "db.process_tables",
+        "peekOfCode": "def load_schema_info():\n    load_dotenv()\n    schema_path = os.getenv(\"DB_SCHEMA_INFO\")\n    if not schema_path or not os.path.isfile(schema_path):\n        raise FileNotFoundError(f\"Schema file not found or DB_SCHEMA_INFO not set: {schema_path}\")\n    with open(schema_path, 'r', encoding='utf-8') as file:\n        content = file.read()\n        if not content.strip():\n            raise ValueError(f\"Schema file is empty: {schema_path}\")\n        return json.loads(content)",
+        "detail": "db.process_tables",
         "documentation": {}
     },
     {

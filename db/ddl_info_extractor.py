@@ -103,7 +103,7 @@ def extract_table_dependencies(statements) -> Dict[str, List[str]]:
     all_tables = []
 
     create_table_regex = re.compile(
-        r'CREATE TABLE IF NOT EXISTS\s+[`"]?(\w+)[`"]?', re.IGNORECASE)
+    r'CREATE TABLE\s+(?:IF NOT EXISTS\s+)?[`"]?(\w+)[`"]?', re.IGNORECASE)
 
     fk_explicit_regex = re.compile(
         r'FOREIGN KEY\s*\([`"]?(\w+)[`"]?\)\s+REFERENCES\s+[`"]?(\w+)[`"]?\s*\([`"]?(\w+)[`"]?\)',

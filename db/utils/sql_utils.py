@@ -254,9 +254,10 @@ def insert_sql_data(sorted_tables, inserts_dir):
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    if any(isinstance(t, list) for t in sorted_tables):
-        sorted_tables = [item for sublist in sorted_tables for item in sublist]
+    # if any(isinstance(t, list) for t in sorted_tables):
+    #     sorted_tables = [item for sublist in sorted_tables for item in sublist]
 
+    sorted_tables = sorted_tables[0]
     for table in sorted_tables:
         print(f"Processing table: {table}")
         table =  str(table)
@@ -272,7 +273,8 @@ def insert_sql_data(sorted_tables, inserts_dir):
 
             # Use sqlparse to safely split multiple/multiline statements
             statements = sqlparse.split(sql_content)
-
+            pass_count = 0
+            fail_cout = 0
             for stmt_num, stmt in enumerate(statements, start=1):
                 stmt = stmt.strip()
                 if not stmt:
@@ -281,9 +283,13 @@ def insert_sql_data(sorted_tables, inserts_dir):
                     cursor.execute(stmt)
                     conn.commit()
                     log_write(log_file, f"[{datetime.now()}] ✅ Table: {table}, Statement #{stmt_num}")
+                    pass_count += 1
                 except Exception as e:
                     conn.rollback()
                     log_write(log_file, f"[{datetime.now()}] ❌ Table: {table}, Statement #{stmt_num}, Error: {str(e)}")
+                    fail_cout += 1
+            print(f"Total ✅ succesful inserts count : {pass_count}")
+            print(f"Total ❌ unsuccessful inserts count: {fail_cout}")
         except Exception as e:
             log_write(log_file, f"[{datetime.now()}] ❌ Unexpected error in {table}: {str(e)}")
 
