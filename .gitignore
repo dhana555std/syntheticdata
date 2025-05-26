@@ -5,3 +5,4 @@ do
 __pycache__ 
 inserts
 dependency_graph.txt
+.DS_Store
