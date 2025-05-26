@@ -219,3 +219,8 @@ CREATE TABLE IF NOT EXISTS Cart (
     }
   }
   ```
+
+- Work flow : 
+  - run `main.py` it will generate the `do` directory which contains the faker files which creates the ouput data.
+  - generated data will be stored in `temp/output` dir as json.
+  - run `generate_inserts.py` it will generate and insert the data into the db.
