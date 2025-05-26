@@ -1,7 +1,7 @@
 import json
 import re
 
-from langchain_core.output_parsers import StrOutputParser, PydanticOutputParser
+from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 
 from utils.llm_utils import get_llm
@@ -80,18 +80,13 @@ For example, session_id CHAR(36) allows a maximum of 36 characters, so Faker mus
 
 
 def generate_code(table, ddl, dependencies, tables_str):
-    
     print(f"before table string is : {tables_str}")
     tables_str = str(tables_str)
     if tables_str and tables_str.strip() != "":
-      tables_str = "Consider the following constraints for generating column data:\n" + tables_str
+        tables_str = "Consider the following constraints for generating column data:\n" + tables_str
 
     print(f"after table string is : {tables_str}")
 
-    
-
-    """
-    """
     try:
         chain = PROMPT | llm | StrOutputParser()
         print(f"prompt is {PROMPT}")
@@ -108,4 +103,3 @@ def generate_code(table, ddl, dependencies, tables_str):
         return code
     except Exception as e:
         print(e)
-
