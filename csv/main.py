@@ -19,17 +19,22 @@ This Python script must:
 1. Automatically infer column types from the reference data.
 2. Maintain relationships, data types, and formatting (e.g., dates, sequences, enums).
 3. Generate 5000 similar synthetic records using `faker`.
-4. Save the output to a CSV file named `{csv_file_name}` at ./generated_csv_data/{csv_file_name} nad print the output file path after generation.
+4. Save the output to a CSV file named `{csv_file_name}` at ./generated_csv_data/{csv_file_name} and print the output file path after generation.
 5. Be self-contained and runnable as `faker.py`.
-6. Do not include any explanations or any kind of markdown formatting — only the Python code.
-7) Use Faker, random, and datetime to generate realistic data.
-8) Use Faker, random, datetime, and timedelta from Python standard library.
-9) NEVER use `faker.timedelta`. It does not exist.
-10) Strictly Do not generate leading ```python quotes or trailing ``` quotes as it creates compilation errors.
-11) Strictly Do not generate this tripple ``` quotes at last of the result.
-12) It should not generate any error related to the date parsing or missing attributes.
+6. Do not include any explanations or markdown formatting — only the Python code.
+7. Use only valid and existing APIs from `faker`, `random`, and `datetime`. Strictly avoid any attributes, classes, or methods not defined in those libraries.
+8. To generate alphanumeric strings, use `faker.bothify`, or Python’s `random.choices` with `string.ascii_letters + string.digits`.
+9. Never use `faker.timedelta` — it does not exist.
+10. Never use `faker.pystr(..., alphanumeric=True)` — `alphanumeric` is not a valid parameter.
+11. Do not generate leading ```python quotes or trailing triple backticks.
+12. Do not generate any code that could raise date parsing errors like `faker.providers.date_time.ParseError: Can't parse date string`.
+13. Prefer `faker.date_between(start_date, end_date)` or `faker.date_this_decade()` for dates.
+14. The script must not raise any AttributeError, TypeError, or ImportError when run with standard `faker`, `random`, `datetime`, and `timedelta`.                                      
+15) It should not generate any error related to the date parsing or missing attributes.
     Example :   raise ParseError(f"Can't parse date string")
                 faker.providers.date_time.ParseError: Can't parse date string `2025-01-01`
+Output only the complete, error-free Python code.
+Here is the reference csv data : 
 {csv_data}
 """)
 
@@ -73,6 +78,7 @@ def generate_csv_faker_script():
         print(f"Error invoking LLM: {e}")
         return
     content = re.sub(r"```(?:\w+)?\n(.*?)```", r"\1", result.content, flags=re.DOTALL)
+    content = re.sub(r"\n?```$", "", content)
     # Define the output directory
     output_dir = 'do_csv'
     # Create the directory if it doesn't exist
