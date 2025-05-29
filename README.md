@@ -1,4 +1,4 @@
-# Synthetic data Generator
+# Synthetic data Generator For Database (Relational)
 
 
 <p>
@@ -227,7 +227,7 @@ CREATE TABLE IF NOT EXISTS Cart (
 
 
 ---
-# Synthetic data Generator
+# CSV Synthetic data Generator
 
 ## With AGENT
 ### CSV synthetic data generation with AGENT 
