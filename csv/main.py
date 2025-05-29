@@ -4,10 +4,7 @@ import os
 import re
 from datetime import datetime
 from dotenv import load_dotenv
-from langchain.prompts import PromptTemplate
-from langchain.schema.output_parser import StrOutputParser
-from langchain_google_genai import ChatGoogleGenerativeAI  # For Google GenAI
-from langchain.chat_models import init_chat_model  # Fallback for other providers
+from langchain.prompts import PromptTemplate 
 from utils.llm_utils import get_llm
 
 llm = get_llm()
