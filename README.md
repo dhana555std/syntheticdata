@@ -228,9 +228,6 @@ CREATE TABLE IF NOT EXISTS Cart (
 
 ---
 # CSV Synthetic data Generator
-
-## With AGENT
-### CSV synthetic data generation with AGENT 
 - required .env 
 
 ```
@@ -263,16 +260,6 @@ user_id,account_balance,is_active,customer_uuid,signup_date,profile_text,first_n
 
 - run `python3 csv_main.py` it will generate `<name of the CSV_DATA_FILE><timestamp>.py` at `./do_csv/` 
   then run this `./do_csv/<name of the CSV_DATA_FILE><timestamp>.py` file to generate the `CSV` data at
-  `./generated_csv_data/` as `<name of the CSV_DATA_FILE><timestamp>.csv`
-
----
-
-## Without AGENT
-- This approach does not use the agent, and generated the `CSV` and `JSON` data. 
-- Note : Data generated is unique as whole, but can have some repeatations in terms of some field values.
-
-### CSV (same .env content as above)
-- run `python3 test_csv.py` file to generate the `CSV` data at
   `./generated_csv_data/` as `<name of the CSV_DATA_FILE><timestamp>.csv`
 
 ---
