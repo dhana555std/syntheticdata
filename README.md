@@ -242,7 +242,7 @@ CSV_DATA_FILE=/Users/rushikesh/sarath/SyntheticDataGit/SyntheticDataCsv/csv_sche
 JSON_DATA_FILE=/Users/rushikesh/sarath/SyntheticDataGit/SyntheticDataCsv/json_schemas/nested.json
 ```
 
-### data.csv : for reference to understamd what kind of data needs to be generated.
+### data.csv : for reference to understand what kind of data needs to be generated.
 ```csv
 user_id,account_balance,is_active,customer_uuid,signup_date,profile_text,first_name,email_address,personal_website,contact_number,order_status,rating,currency_code,postal_code,country,state,city,notes
 123,4567.89,True,550e8400-e29b-41d4-a716-446655440000,2023-04-01 15:30:00,"Loyal customer with frequent purchases","Alice","alice@example.com","https://alice.com","+1-202-555-0123","pending",4,USD,12345,"United States","California","San Francisco","Preferred contact time: mornings"
@@ -260,7 +260,7 @@ user_id,account_balance,is_active,customer_uuid,signup_date,profile_text,first_n
 133,7654.32,True,c8d9e0f1-a2b3-4567-8901-234567890abc,2023-02-14 06:30:00,"Feedback provider, helps improve services","Mia","mia123@mail.net","https://www.mia23.com","+1-616-888-6789","processing",3,USD,10112,"United States","New York","New York City","No specific preferences"
 132,2109.87,False,d9e0f1a2-b3c4-5678-9012-34567890abcd,2022-10-25 09:45:00,"Interested in new product releases","Noah","noah456@service.co","https://www.noah45.com","+1-717-999-0123","completed",4,EUR,
 ```
-### nested.json : for reference to understamd what kind of data needs to be generated.
+### nested.json : for reference to understand what kind of data needs to be generated.
 ```json
 {
     "company_details": {
