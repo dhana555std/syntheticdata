@@ -1,8 +1,10 @@
 .env
 .env*
 .venv
-do
 __pycache__ 
 inserts
 dependency_graph.txt
 .DS_Store
+.vscode
+.DS_Store
+.hypothesis
