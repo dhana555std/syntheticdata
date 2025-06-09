@@ -13,10 +13,14 @@ For example, consider the DDL mentioned in the [schema.sql file](schemas/schema.
 - It generates the necessary DML statements(inserts in this case) and adds all these to `insert.sql` file which gets created inside the **temp** folder of the machine on which it is running. 
 
 
+https://github.com/user-attachments/assets/0afddf42-154f-4440-a67a-17d302380935
+
+
+
 ## Installation instructions
 - Create a Python Virtual Environment.
 - Run `pip install -r requirements.txt`.
-- Configure the API Keys and Schema definition file values in the .env file.
+- Configure the API Keys, Schema definition file and values in the .env file.
 - Make sure that the DB already exists with the said tables in the schema definition file. The tables are blank and no data is available in it.
 - The format of the .env file is as follows:-
 - .env
