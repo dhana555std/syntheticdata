@@ -259,7 +259,7 @@ user_id,account_balance,is_active,customer_uuid,signup_date,profile_text,first_n
 ---
 
 - run `python3 csv_main.py` it will generate `<name of the CSV_DATA_FILE><timestamp>.py` at `./do_csv/` 
-  then run this `./do_csv/<name of the CSV_DATA_FILE><timestamp>.py` file to generate the `CSV` data at
+- run this `./do_csv/<name of the CSV_DATA_FILE><timestamp>.py` file to generate the `CSV` data at
   `./generated_csv_data/` as `<name of the CSV_DATA_FILE><timestamp>.csv`
 
 ---
