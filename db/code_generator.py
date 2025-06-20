@@ -61,7 +61,13 @@ Requirements for generated code:
 - Add None and a default value for all the arguments.
 - ⚠️ Never pass a formatted string (like "2025-01-14 09:33:50.000") as input to Faker datetime functions.
   Always keep values as datetime objects until final assignment into the dictionary.
-dt = faker.date_time_this_year(before_now=True)                  
+dt = faker.date_time_this_year(before_now=True)       
+- Only use keys that exist in the provided schema or input data structure.
+- Do not reference any fields (e.g., 'FullDateAlternateKey') that are not explicitly mentioned.
+- Always validate the presence of keys in dictionaries before accessing them (e.g., use `'key' in dict` checks).
+- Assume the schema is strictly enforced — no extra fields should be invented or assumed.
+- If a field like a date is needed for logic (e.g., comparison), only use existing fields like 'Date' or 'DateKey'.
+- Do not add any validations unnecessary try to generate short code as possible.
 # Format as required
 formatted = dt.strftime("%Y-%m-%d %H:%M:%S") + ".000"
 

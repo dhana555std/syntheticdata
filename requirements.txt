@@ -95,3 +95,6 @@ typing_extensions
 tzdata
 urllib3
 zstandard
+sqlglot
+sqlparse
+pymysql

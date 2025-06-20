@@ -2,6 +2,7 @@ import os
 import json
 from decimal import Decimal
 import tempfile
+import datetime
 
 
 def topological_sort(dependency_graph):
@@ -95,6 +96,8 @@ def write_to_json_file(var_name, data):
         os.remove(file_path)
 
     def default_serializer(obj):
+        if isinstance(obj, (datetime.date, datetime.datetime)):
+            return obj.isoformat()  # Converts to "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM:SS"
         if isinstance(obj, Decimal):
             return float(obj)
         raise TypeError(f"Type {type(obj)} not serializable")
