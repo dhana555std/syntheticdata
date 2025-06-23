@@ -1,0 +1,21 @@
+{
+    "user_id": "Integer - Unique identifier for each user",
+    "account_balance": "Float - Account balance in local currency",
+    "is_active": "Boolean - Whether the user account is active",
+    "customer_uuid": "String - Unique customer identifier (UUID format)",
+    "signup_date": "Datetime - Timestamp of when the user signed up",
+    "profile_text": "String - Free-text user profile or notes",
+    "first_name": "String - User's first name",
+    "email_address": "String - Email address of the user",
+    "personal_website": "String (URL) - Personal or business website of the user",
+    "contact_number": "String (Phone Number) - User's contact number in international format",
+    "order_status": "String (Enum) - Status of the most recent order (e.g., completed, pending, shipped)",
+    "rating": "Integer - User rating (typically on a 1 to 5 scale)",
+    "currency_code": "String - ISO currency code (e.g., USD, EUR, JPY)",
+    "postal_code": "String or Float - Postal or ZIP code",
+    "country": "String - Country of residence",
+    "state": "String - State/region within the country",
+    "city": "String - City of residence",
+    "notes": "String - Additional notes about the customer"
+  }
+  

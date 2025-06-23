@@ -59,6 +59,19 @@ def generate_csv_faker_script():
         print(f"Error reading reference CSV file: {e}")
         return
 
+    csv_info = ""
+    csv_info_path = os.getenv("CSV_DATA_FILE_INFO")
+    if csv_info_path:
+        try:
+            with open(csv_info_path, "r") as info_file:
+                csv_info = info_file.read()
+            print(f"Loaded CSV info from: {csv_info_path}")
+        except Exception as e:
+            print(f"Warning: Failed to load CSV info from {csv_info_path}: {e}")
+            csv_info = ""
+    else:
+        print("No CSV_DATA_FILE_INFO environment variable set. Skipping additional prompt context.")
+
     filename_without_ext = os.path.splitext(os.path.basename(csv_file_path))[0]
     timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     faker_file_name = f"{filename_without_ext}_{timestamp}.py"
@@ -67,9 +80,15 @@ def generate_csv_faker_script():
     # Create LangChain chain
     chain = PROMPT | llm
 
+    prompt_input = {
+        "csv_data": reference_csv_content,
+        "csv_file_name": csv_file_name
+                    }
+    if csv_info:
+        prompt_input["csv_info"] = csv_info
     # Generate script via LLM
     try:
-        result = chain.invoke({"csv_data": reference_csv_content, "csv_file_name" : csv_file_name})
+        result = chain.invoke(prompt_input)
         print("LLM generated the Python script.")
     except Exception as e:
         print(f"Error invoking LLM: {e}")
